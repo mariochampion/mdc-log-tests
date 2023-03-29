@@ -17,6 +17,9 @@
 ## Contents
 A master flowfile pointing a bunch of command specific flowfiles useful to generate sample structured logs
 
+* flowfiles per command are stored (and editable) in `mdcflowfiles` dir
+* log files will be generated and stored in `mdclogfiles` dir
+
 ## How to use
 * clone the repo contents to your local setup, with a properly configured Liquibase Pro, and then 
 1. open a terminal and run `liquibase init start-h2` to start the included H2 database
@@ -24,4 +27,10 @@ A master flowfile pointing a bunch of command specific flowfiles useful to gener
 3. run `liquibase flow`
 
 
-Log files will be generated and stored in 
+# Updates welcome!
+Please make PRs if you 
+* tweak the flowfile
+* change the source changelogs
+* add more changelogs of different complexity,
+* add flowfiles for `diff`, `diffchangelog` commands
+* etc etc. 
