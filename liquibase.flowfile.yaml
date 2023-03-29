@@ -2,7 +2,7 @@
 ##########  learn more http://docs.liquibase.com/flow  ##########
 
 
-
+# un-comment these to set up the final actions in the endstage if you desire to "ship the logs" to a different location
 #globalVariables:
 #  ## make this match your path to what is expected by your log shipping agent
 #  VARSLOGPATH: "../../../../../var/log"
@@ -88,12 +88,12 @@ endStage:
       command: dropall
       
     #### COMMENTED OUT FOR NOW, AS I AM NOT SHIPPING THESE LOG TO MY LOG ANALYSIS TOOL
-    #### SIMPLY CONFIGURE YOUR VARSLOGPATH ABOVE IN THE globalVariables
+    #### SIMPLY CONFIGURE YOUR VARSLOGPATH ABOVE IN THE globalVariables and uncomment to use these actions
     #- type: shell
     #  command: echo "-----MOVING LOGS to ${VARSLOGPATH}/${LOGSDIRNAME}"
 
-    ##- type: shell
-    ##  command: bash -c "mv ${LOGSDIRNAME}/* ${VARSLOGPATH}/${LOGSDIRNAME}"
-      ## mv ./* ../../../../../var/log/mdclogfiles/
+    #- type: shell
+    #  command: bash -c "mv ${LOGSDIRNAME}/* ${VARSLOGPATH}/${LOGSDIRNAME}"
+      ## mv ./* ../../../../../var/log/mdclogfiles/ (leave commented)
       
       
