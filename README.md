@@ -21,10 +21,14 @@ A master flowfile pointing a bunch of command specific flowfiles useful to gener
 * log files will be generated and stored in `mdclogfiles` dir
 
 ## How to use
-* clone the repo contents to your local setup, with a properly configured Liquibase Pro, and then 
+Clone the repo contents to your local setup, with a properly configured Liquibase Pro, and then 
 1. open a terminal and run `liquibase init start-h2` to start the included H2 database
 2. open another terminal to the dir with `liquibase.properties` and `liquibase.flowfile.yaml`
 3. run `liquibase flow`
+
+Note: in `liquibase.rollbackstargeted.flowfile.yaml` in the `MakeLogFile02` stage are manual instructions to run `rollback-one-update`, as this command requires a `deploymentid`, which is not known until the deployment happens. You can copy/paste the three commands in that stage to generate the desired rollback-one-update structured log.
+
+
 
 
 # Updates welcome!
