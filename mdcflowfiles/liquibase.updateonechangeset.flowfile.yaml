@@ -1,0 +1,54 @@
+##########           LIQUIBASE FLOWFILE                ##########
+##########  learn more http://docs.liquibase.com/flow  ##########
+
+
+## Set up some global variables for property substitution in ANY stage
+globalVariables:
+  THISCOMMAND: "update-one-changeset"
+  THISLOGLEVEL: "INFO"
+  LOGSDIRNAME: "mdclogfiles"
+  LOGDIRLOC: "."  
+  LOGBASE: "allcmds-${THISLOGLEVEL}"
+  LOGEXTENSION: "log"
+  CHANGELOGBASE: "changelog.mdc"
+
+
+# do some stages 
+stages:
+
+
+  ## A stage of actions. 
+  MakeLogFile01:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "cafe"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+
+      
+    actions:
+
+      #
+      # Run the update
+      #
+      - type: shell
+        command: liquibase --loglevel=${THISLOGLEVEL} ${THISCOMMAND} --changeset-author=mmc --changeset-id=create-drinks --changeset-path=changelog.mdc-cafe.sql --log-file="${THISLOGFILE}" --force
+          
+  ##############################################################
+
+
+
+## The endStage ALWAYS RUNS. 
+## So put actions here which you desire to perform whether previous stages' actions succeed or fail.
+## If you do not want any actions to ALWAYS RUN, simply delete the endStage from your flow file.
+
+endStage:
+  actions:
+    - type: liquibase
+      command: history
+      
+    - type: liquibase
+      command: dropall
+      
+      

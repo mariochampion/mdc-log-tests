@@ -1,0 +1,5109 @@
+{
+  "timestamp": "2023-03-29T18:28:39.757Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for directory /Users/mariochampion/Documents/mdc-logtests-setup"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.770Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.searchPath found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.771Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-core.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.788Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for directory /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/lib"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.789Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaybird.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.791Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/ojdbc8.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.795Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snakeyaml.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.796Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snowflake-jdbc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.817Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/picocli.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.819Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-runtime.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.821Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-api.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.822Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-core.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.823Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/hsqldb.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.825Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mssql-jdbc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.827Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/h2.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.830Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mariadb-java-client.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.832Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-commercial.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.835Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-lang3.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.836Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/postgresql.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.838Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/sqlite-jdbc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.839Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/opencsv.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.840Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-text.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.842Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-collections4.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.843Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jcc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.846Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for directory /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.847Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Overall search path: \n  - /Users/mariochampion/Documents/mdc-logtests-setup\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-core.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/lib\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaybird.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/ojdbc8.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snakeyaml.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snowflake-jdbc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/picocli.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-runtime.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-api.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-core.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/hsqldb.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mssql-jdbc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/h2.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mariadb-java-client.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-commercial.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-lang3.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/postgresql.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/sqlite-jdbc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/opencsv.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-text.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-collections4.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jcc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.850Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.shouldRun aka should.run found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.851Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.shouldRun is using the default value of true"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.854Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.showBanner' configuration of 'false'\n    environment variable 'LIQUIBASE_SHOW_BANNER' of 'off'"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.862Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.monitorPerformance found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.862Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.monitorPerformance is using the default value of false"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.863Z",
+  "level": "FINE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Performance monitoring disabled"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.870Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.876Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.outputFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.877Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.strict found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.878Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.strict is using the default value of false"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.942Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.changeExecListenerClass found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.943Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.changeExecListenerClass found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.945Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.changeExecListenerPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.946Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.changeExecListenerPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.946Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.changelogFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.947Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.changelogFile' configuration of 'changelog.mdc-cafe.sql'\n    command argument '--changelogFile' of 'changelog.mdc-cafe.sql'\n    Overrides file exists at path liquibase.properties 'changeLogFile' of 'changelog.mdc-cafe.sql'"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.948Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.contexts found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.949Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.contexts found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.950Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.count found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.951Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.count' configuration of '2'\n    command argument '--count' of '2'"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.952Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.defaultCatalogName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.953Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.defaultCatalogName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.954Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.defaultSchemaName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.954Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.defaultSchemaName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.955Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.driver found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.956Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.driver found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.957Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.driverPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.958Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.driverPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.959Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.labelFilter aka liquibase.command.rollbackCount.labels found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.960Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.labelFilter aka liquibase.command.labels found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.961Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.password found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.962Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.password' configuration of '*****'\n    file exists at path liquibase.properties 'liquibase.command.password' of '*****'"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.963Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.rollbackScript found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.964Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackScript found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.965Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.url found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.967Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.url' configuration of 'jdbc:h2:tcp://localhost:9090/mem:dev'\n    file exists at path liquibase.properties 'liquibase.command.url' of '*****'"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.968Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackCount.username found"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.969Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.username' configuration of 'dbuser'\n    file exists at path liquibase.properties 'liquibase.command.username' of 'dbuser'"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.970Z",
+  "level": "FINE",
+  "class": "liquibase.command",
+  "thread": "1",
+  "message": "Pipeline for command 'rollbackCount: liquibase.command.core.RollbackCountCommandStep"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.976Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.hub.apiKey found",
+  "liquibaseOperation": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.977Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.propertyProviderClass found",
+  "liquibaseOperation": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.977Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.databaseClass found",
+  "liquibaseOperation": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.990Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.991Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.hub.url found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.992Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.hub.url is using the default value of https://hub.liquibase.com",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.992Z",
+  "level": "FINE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Liquibase Hub URL:      https://hub.liquibase.com",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.993Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.hub.mode' configuration of 'OFF'\n    file exists at path liquibase.properties 'liquibase.hub.mode' of 'off'",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.993Z",
+  "level": "FINE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Liquibase Hub Mode:     OFF",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.993Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Properties:",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.994Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Key:'password' Value:'**********'",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.995Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Key:'user' Value:'dbuser'",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.996Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Connecting to the URL:'jdbc:h2:tcp://localhost:9090/mem:dev' using driver:'org.h2.Driver'",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.998Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.database.DatabaseConnection instance liquibase.database.jvm.JdbcConnection",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:39.999Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.database.DatabaseConnection instance com.datical.liquibase.ext.database.jvm.ProJdbcConnection",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.114Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Connection has been created",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.124Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Connected to DBUSER@jdbc:h2:tcp://localhost:9090/mem:dev",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.124Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Setting auto commit to false from true",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.125Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.preserveSchemaCase found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.126Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.preserveSchemaCase is using the default value of false",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.127Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.liquibaseTablespaceName aka liquibase.databaseChangeLogTablespaceName aka liquibase.liquibaseTableSpaceName found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.128Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.shouldSnapshotData found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.128Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.shouldSnapshotData is using the default value of false",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.133Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.databaseChangelogLockTableName aka liquibase.databaseChangeLogLockTableName found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.134Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.databaseChangelogLockTableName is using the default value of DATABASECHANGELOGLOCK",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.134Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.databaseChangelogTableName aka liquibase.databaseChangeLogTableName found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.135Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.databaseChangelogTableName is using the default value of DATABASECHANGELOG",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.136Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.137Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.liquibaseSchemaName aka liquibase.schemaName found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.139Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.supportPropertyEscaping aka enableEscaping found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.139Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.supportPropertyEscaping is using the default value of false",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.144Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.LockServiceImpl",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.145Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.MockLockService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.146Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.OfflineLockService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.146Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.StandardLockService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.148Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.changelogLockWaitTimeInMinutes aka liquibase.changeLogLockWaitTimeInMinutes found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.148Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.changelogLockWaitTimeInMinutes is using the default value of 5",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.152Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance liquibase.executor.jvm.JdbcExecutor",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.153Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance liquibase.executor.jvm.SnowflakeJdbcExecutor",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.154Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.tools.OracleSqlPlusExecutor",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.155Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.tools.MssqlSqlcmdExecutor",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.156Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.tools.PsqlExecutor",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.160Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.CatalogSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.163Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.164Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorH2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.165Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.165Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorOracle",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.166Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.DataSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.168Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ForeignKeySnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.170Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.IndexSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.172Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.PrimaryKeySnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.173Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.174Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.175Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.TableSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.177Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.178Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ViewSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.179Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.180Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.181Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.183Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.appdba.synonym.SynonymSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.185Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.186Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.postgres.PostgresCheckConstraintSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.189Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageBodySnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.190Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.192Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.FunctionSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.192Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.EDBPostgresFunctionSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.193Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.PostgresFunctionSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.194Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.mysql.MySQLFunctionSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.195Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.PostgresStoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.196Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MySQLStoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.197Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.SnowflakeStoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.198Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.StoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.199Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.200Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.postgres.PostgresTriggerSnapshotGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.202Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.liquibaseCatalogName aka liquibase.catalogName found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.207Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.209Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorDB2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.210Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorHsqlH2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.211Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.212Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorMySQL",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.213Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorSQLite",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.214Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.215Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNull",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.216Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorSQLite",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.218Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.219Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorDerby",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.220Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.221Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMSSQL",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.222Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMySQL",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.223Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorOracle",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.224Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorPostgres",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.224Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSQLite",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.225Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybase",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.226Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybaseASA",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.227Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.228Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.229Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.230Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.231Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.231Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorTDS",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.232Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AlterSequenceGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.233Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.BatchDmlExecutablePreparedStatementGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.234Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ClearDatabaseChangeLogTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.235Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CommentGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.236Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CopyRowsGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.237Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogLockTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.238Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.239Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGeneratorSybase",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.241Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.242Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorFirebird",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.243Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorPostgres",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.244Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateProcedureGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.246Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.247Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.249Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.250Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.251Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.252Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DeleteGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.253Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropColumnGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.254Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.255Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropForeignKeyConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.256Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropIndexGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.256Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropPrimaryKeyGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.257Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.258Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropSequenceGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.259Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.260Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropUniqueConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.260Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropViewGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.261Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetNextChangeSetSequenceValueGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.262Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.263Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDB2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.263Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDerby",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.264Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorFirebird",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.265Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorHsql",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.265Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.266Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorMSSQL",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.267Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorOracle",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.268Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorPostgres",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.268Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybase",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.269Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybaseASA",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.270Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InitializeDatabaseChangeLogLockTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.271Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertDataChangeGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.272Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.273Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorDB2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.274Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorH2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.275Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorHsql",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.275Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorInformix",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.276Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMSSQL",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.276Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMySQL",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.277Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorOracle",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.277Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorPostgres",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.278Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSQLite",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.279Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSybaseASA",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.280Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertSetGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.281Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.LockDatabaseChangeLogGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.282Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.MarkChangeSetRanGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.283Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ModifyDataTypeGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.284Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawParameterizedSqlGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.285Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawSqlGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.286Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReindexGeneratorSQLite",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.311Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RemoveChangeSetRanStatusGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.312Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameColumnGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.313Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameSequenceGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.314Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.315Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.316Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReorganizeTableGeneratorDB2",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.316Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RuntimeGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.317Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.318Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogLockGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.319Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.320Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetNullableGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.321Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.321Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetViewRemarksGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.322Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.StoredProcedureGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.322Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TableRowCountGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.323Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TagDatabaseGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.324Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UnlockDatabaseChangeLogGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.325Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateChangeSetChecksumGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.325Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateDataChangeGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.326Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.326Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.327Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.327Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.328Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.329Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.329Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.330Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.331Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGeneratorSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.333Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnusedGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.333Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.334Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.335Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.336Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.336Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.337Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.337Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.338Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.339Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.340Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.341Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.341Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.342Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.342Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.343Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.344Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.344Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerGenerator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.364Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.369Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.369Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Lock Database",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.374Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BigIntType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.375Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BlobType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.376Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BooleanType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.376Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CharType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.377Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.ClobType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.378Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CurrencyType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.378Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DatabaseFunctionType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.379Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateTimeType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.380Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.381Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DecimalType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.382Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DoubleType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.383Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.FloatType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.383Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.IntType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.384Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.MediumIntType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.385Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NCharType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.386Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NVarcharType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.387Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NumberType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.388Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.SmallIntType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.388Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimeType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.390Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimestampType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.390Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TinyIntType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.391Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UUIDType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.391Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UnknownType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.392Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.VarcharType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.392Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.XMLType",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.393Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TextDataTypeSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.393Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimestampNTZTypeSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.393Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DoubleDataTypeSnowflake",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.396Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.includeCatalogInSpecification found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.397Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.includeCatalogInSpecification is using the default value of false",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.400Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.401Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.404Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.406Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.412Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.formattedsql.FormattedSqlChangeLogParser",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.413Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.json.JsonChangeLogParser",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.414Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.sql.SqlChangeLogParser",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.425Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.validateXmlChangelogFiles found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.425Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.validateXmlChangelogFiles is using the default value of true",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.426Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.secureParsing found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.426Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.secureParsing is using the default value of true",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.426Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.xml.XMLChangeLogSAXParser",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.426Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.yaml.YamlChangeLogParser",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.428Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.fileEncoding found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.428Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.fileEncoding is using the default value of UTF-8",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.441Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.441Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.445Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.outputFileEncoding found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.446Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.outputFileEncoding is using the default value of UTF-8",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.447Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 1680114520445 as e141aacdd3489ba8cf640f7d48655064",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.470Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.CatalogComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.471Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ColumnComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.472Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.DefaultDatabaseObjectComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.473Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ForeignKeyComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.473Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.IndexComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.474Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.PrimaryKeyComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.474Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.SchemaComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.475Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.TableComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.476Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.UniqueConstraintComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.476Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.appdba.diff.compare.SynonymComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.477Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.StoredLogicComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.478Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.478Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerComparator",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.486Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.489Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.494Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.499Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.507Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as 15980230ec8e776415529ab5c72faa77",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.507Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:15980230ec8e776415529ab5c72faa77: as 0f83a7afe2af0479e336fc03b16a0683",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.508Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as b8bf432dc62165464c046e51f1209f4f",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.509Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:b8bf432dc62165464c046e51f1209f4f: as 6c4b75bf9e5f199cf89106f160ba8909",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.509Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as bafb4c4dbb8de4b0178c9ef611b034b6",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.510Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:bafb4c4dbb8de4b0178c9ef611b034b6: as 31fb2a0be5a9e4535f4a5703347c0693",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.510Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as faff89ea20ccf0a9ff02f4885b0acb6c",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.511Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:faff89ea20ccf0a9ff02f4885b0acb6c: as 53133e5d25c53242cdbcc79405f3569c",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.511Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as dacc09b21c3d08530d38c3a70e72f499",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.512Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:dacc09b21c3d08530d38c3a70e72f499: as 90ed635a2198d9c8cfafa5fd131e3584",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.512Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as fa30fef009b8eaf6925fe56a5aa52ace",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.513Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:fa30fef009b8eaf6925fe56a5aa52ace: as 1401a3066c4fdeded26e1b9d77ce4645",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.514Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as ffa7f65a5a98b928c8ba63abd0826038",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.514Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:ffa7f65a5a98b928c8ba63abd0826038: as 0df3d2717bb9d782d3873f9cc8e92bcd",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.515Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as bd68fac60df6abc4c68f3de945ff8249",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.516Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:bd68fac60df6abc4c68f3de945ff8249: as 878e9431a8779baf82ac64856aa7ad03",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.517Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as 18ecdefa8ea74c4698ccf28c543157fa",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.517Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:18ecdefa8ea74c4698ccf28c543157fa: as 88d80f4ea4ce035c68c294e767e88c2e",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.518Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for inputStream as 3e927b2e8cc56bac6eb5d0cdb0943078",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.518Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:3e927b2e8cc56bac6eb5d0cdb0943078: as 12dd569dd2a7ad86f8506ec1ec9a4ead",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.523Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.hub.HubService instance liquibase.hub.core.MockHubService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.526Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.hub.HubService instance liquibase.hub.core.StandardHubService",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.533Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Rolling Back ChangeSet: changelog.mdc-cafe.sql::create-bonuses::mmc",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.541Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Executing Statement: DROP TABLE bonuses",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.543Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.sql.logLevel found",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.543Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.sql.logLevel is using the default value of FINE",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.544Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "DROP TABLE bonuses",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.545Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "0 row(s) affected",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.547Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-bonuses::mmc has been successfully rolled back.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.546"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.551Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql'",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.546",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.552Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "1 row(s) affected",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.546",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.552Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.532",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.546",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.558Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Rolling Back ChangeSet: changelog.mdc-cafe.sql::create-state-taxes::mmc",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.560Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Executing Statement: DROP TABLE state_taxes",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.561Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "DROP TABLE state_taxes",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.561Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "0 row(s) affected",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.563Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-state-taxes::mmc has been successfully rolled back.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.563"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.565Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql'",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.563",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.566Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "1 row(s) affected",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.563",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.567Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T13:28:40.558",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T13:28:40.563",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.570Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Rollback command completed successfully.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  },
+  "deploymentOutcome": "success"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.575Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Release Database Lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  }
+}
+{
+  "timestamp": "2023-03-29T18:28:40.579Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  },
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:40.581Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0114518167",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  }
+}

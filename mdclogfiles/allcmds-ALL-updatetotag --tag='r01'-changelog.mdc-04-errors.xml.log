@@ -1,0 +1,5030 @@
+{
+  "timestamp": "2023-03-29T18:28:01.918Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for directory /Users/mariochampion/Documents/mdc-logtests-setup"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.929Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.searchPath found"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.931Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-core.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.946Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for directory /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/lib"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.947Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaybird.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.950Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/ojdbc8.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.953Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snakeyaml.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.955Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snowflake-jdbc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.975Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/picocli.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.976Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-runtime.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.978Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-api.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.979Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-core.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.981Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/hsqldb.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.983Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mssql-jdbc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.985Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/h2.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.988Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mariadb-java-client.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.990Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-commercial.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.992Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-lang3.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.994Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/postgresql.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.996Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/sqlite-jdbc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.998Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/opencsv.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:01.999Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-text.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:02Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-collections4.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.002Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for file /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jcc.jar"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.005Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Creating resourceAccessor for directory /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.006Z",
+  "level": "FINE",
+  "class": "liquibase.resource",
+  "thread": "1",
+  "message": "Overall search path: \n  - /Users/mariochampion/Documents/mdc-logtests-setup\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-core.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/lib\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaybird.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/ojdbc8.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snakeyaml.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/snowflake-jdbc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/picocli.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-runtime.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-api.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jaxb-core.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/hsqldb.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mssql-jdbc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/h2.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/mariadb-java-client.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/liquibase-commercial.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-lang3.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/postgresql.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/sqlite-jdbc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/opencsv.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-text.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/commons-collections4.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib/jcc.jar\n  - /Users/mariochampion/Documents/hub/liquibase-4.20.0/liquibase/internal/lib"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.010Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.shouldRun aka should.run found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.010Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.shouldRun is using the default value of true"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.013Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.showBanner' configuration of 'false'\n    environment variable 'LIQUIBASE_SHOW_BANNER' of 'off'"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.020Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.monitorPerformance found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.021Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.monitorPerformance is using the default value of false"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.021Z",
+  "level": "FINE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Performance monitoring disabled"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.028Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.033Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.outputFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.034Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.strict found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.034Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.strict is using the default value of false"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.099Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.changeExecListenerClass found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.101Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.changeExecListenerClass found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.102Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.changeExecListenerPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.103Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.changeExecListenerPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.104Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.changelogFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.105Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.changelogFile' configuration of 'changelog.mdc-04-errors.xml'\n    command argument '--changelogFile' of 'changelog.mdc-04-errors.xml'\n    Overrides file exists at path liquibase.properties 'changeLogFile' of 'changelog.mdc-cafe.sql'"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.107Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.contexts found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.108Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.contexts found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.109Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.defaultCatalogName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.110Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.defaultCatalogName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.111Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.defaultSchemaName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.111Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.defaultSchemaName found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.112Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.driver found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.113Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.driver found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.114Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.driverPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.114Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.driverPropertiesFile found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.116Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.labelFilter aka liquibase.command.updateToTag.labels found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.117Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.labelFilter aka liquibase.command.labels found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.118Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.password found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.119Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.password' configuration of '*****'\n    file exists at path liquibase.properties 'liquibase.command.password' of '*****'"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.120Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.rollbackOnError found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.121Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.updateToTag.rollbackOnError is using the default value of false"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.122Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.rollbackOnError found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.122Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.rollbackOnError is using the default value of false"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.123Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.showSummary found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.124Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.updateToTag.showSummary is using the default value of OFF"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.125Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.showSummary found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.125Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.showSummary is using the default value of OFF"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.126Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.tag found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.127Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.tag' configuration of 'r01'\n    command argument '--tag' of 'r01'"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.128Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.url found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.131Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.url' configuration of 'jdbc:h2:tcp://localhost:9090/mem:dev'\n    file exists at path liquibase.properties 'liquibase.command.url' of '*****'"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.132Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.command.updateToTag.username found"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.132Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.command.username' configuration of 'dbuser'\n    file exists at path liquibase.properties 'liquibase.command.username' of 'dbuser'"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.133Z",
+  "level": "FINE",
+  "class": "liquibase.command",
+  "thread": "1",
+  "message": "Pipeline for command 'updateToTag: liquibase.command.core.UpdateToTagCommandStep then com.datical.liquibase.ext.command.ProUpdateToTagCommandStep"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.136Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.updateToTag.rollbackOnError is using the default value of false",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.137Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.rollbackOnError is using the default value of false",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.137Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.updateToTag.showSummary is using the default value of OFF",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.138Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.command.showSummary is using the default value of OFF",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.142Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.hub.apiKey found",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.144Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.propertyProviderClass found",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.145Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.databaseClass found",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.155Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.157Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.hub.url found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.158Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.hub.url is using the default value of https://hub.liquibase.com",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.158Z",
+  "level": "FINE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Liquibase Hub URL:      https://hub.liquibase.com",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.159Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Found 'liquibase.hub.mode' configuration of 'OFF'\n    file exists at path liquibase.properties 'liquibase.hub.mode' of 'off'",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.160Z",
+  "level": "FINE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Liquibase Hub Mode:     OFF",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.160Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Properties:",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.161Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Key:'password' Value:'**********'",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.161Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Key:'user' Value:'dbuser'",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.162Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Connecting to the URL:'jdbc:h2:tcp://localhost:9090/mem:dev' using driver:'org.h2.Driver'",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.164Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.database.DatabaseConnection instance liquibase.database.jvm.JdbcConnection",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.165Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.database.DatabaseConnection instance com.datical.liquibase.ext.database.jvm.ProJdbcConnection",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.284Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Connection has been created",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.294Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Connected to DBUSER@jdbc:h2:tcp://localhost:9090/mem:dev",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.294Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Setting auto commit to false from true",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.296Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.preserveSchemaCase found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.296Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.preserveSchemaCase is using the default value of false",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.298Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.liquibaseTablespaceName aka liquibase.databaseChangeLogTablespaceName aka liquibase.liquibaseTableSpaceName found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.299Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.shouldSnapshotData found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.299Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.shouldSnapshotData is using the default value of false",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.305Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.databaseChangelogLockTableName aka liquibase.databaseChangeLogLockTableName found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.305Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.databaseChangelogLockTableName is using the default value of DATABASECHANGELOGLOCK",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.306Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.databaseChangelogTableName aka liquibase.databaseChangeLogTableName found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.307Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.databaseChangelogTableName is using the default value of DATABASECHANGELOG",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.308Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.309Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.liquibaseSchemaName aka liquibase.schemaName found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.310Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.supportPropertyEscaping aka enableEscaping found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.311Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.supportPropertyEscaping is using the default value of false",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.316Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.LockServiceImpl",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.317Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.MockLockService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.318Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.OfflineLockService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.319Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.lockservice.LockService instance liquibase.lockservice.StandardLockService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.321Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.changelogLockWaitTimeInMinutes aka liquibase.changeLogLockWaitTimeInMinutes found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.321Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.changelogLockWaitTimeInMinutes is using the default value of 5",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.326Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance liquibase.executor.jvm.JdbcExecutor",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.327Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance liquibase.executor.jvm.SnowflakeJdbcExecutor",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.329Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.tools.OracleSqlPlusExecutor",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.330Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.tools.MssqlSqlcmdExecutor",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.331Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.executor.Executor instance com.datical.liquibase.ext.tools.PsqlExecutor",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.336Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.CatalogSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.339Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.339Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorH2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.340Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.341Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ColumnSnapshotGeneratorOracle",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.341Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.DataSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.343Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ForeignKeySnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.344Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.IndexSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.346Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.PrimaryKeySnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.347Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.348Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.349Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.TableSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.350Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.351Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.ViewSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.352Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SchemaSnapshotGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.353Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.SequenceSnapshotGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.354Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance liquibase.snapshot.jvm.UniqueConstraintSnapshotGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.355Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.appdba.synonym.SynonymSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.357Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.357Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.postgres.PostgresCheckConstraintSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.359Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageBodySnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.360Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.PackageSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.362Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.FunctionSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.362Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.EDBPostgresFunctionSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.363Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.postgres.PostgresFunctionSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.364Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.function.mysql.MySQLFunctionSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.365Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.PostgresStoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.366Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.MySQLStoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.367Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.SnowflakeStoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.367Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.storedproc.StoredProcedureSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.368Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.369Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.snapshot.SnapshotGenerator instance com.datical.liquibase.ext.storedlogic.trigger.postgres.PostgresTriggerSnapshotGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.370Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.liquibaseCatalogName aka liquibase.catalogName found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.375Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.376Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorDB2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.377Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorHsqlH2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.378Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.379Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorMySQL",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.380Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddAutoIncrementGeneratorSQLite",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.381Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.382Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorDefaultClauseBeforeNotNull",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.383Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddColumnGeneratorSQLite",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.384Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.385Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorDerby",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.386Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.386Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMSSQL",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.387Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorMySQL",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.387Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorOracle",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.388Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorPostgres",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.389Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSQLite",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.390Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybase",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.390Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddDefaultValueGeneratorSybaseASA",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.391Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.392Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.392Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddPrimaryKeyGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.393Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.394Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.394Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AddUniqueConstraintGeneratorTDS",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.395Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.AlterSequenceGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.396Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.BatchDmlExecutablePreparedStatementGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.397Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ClearDatabaseChangeLogTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.397Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CommentGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.398Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CopyRowsGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.398Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogLockTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.399Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.400Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateDatabaseChangeLogTableGeneratorSybase",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.401Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.402Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorFirebird",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.402Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateIndexGeneratorPostgres",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.403Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateProcedureGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.404Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.406Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.407Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateTableGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.408Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.408Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateViewGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.409Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DeleteGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.410Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropColumnGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.412Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.413Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropForeignKeyConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.413Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropIndexGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.414Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropPrimaryKeyGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.414Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.415Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropSequenceGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.416Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.416Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropUniqueConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.417Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropViewGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.418Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetNextChangeSetSequenceValueGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.419Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.419Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDB2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.420Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorDerby",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.421Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorFirebird",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.421Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorHsql",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.421Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.422Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorMSSQL",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.422Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorOracle",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.423Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorPostgres",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.423Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybase",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.424Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.GetViewDefinitionGeneratorSybaseASA",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.424Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InitializeDatabaseChangeLogLockTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.425Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertDataChangeGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.426Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.427Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorDB2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.427Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorH2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.428Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorHsql",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.428Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorInformix",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.429Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMSSQL",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.430Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorMySQL",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.430Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorOracle",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.431Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorPostgres",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.431Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSQLite",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.432Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSybaseASA",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.432Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertSetGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.433Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.LockDatabaseChangeLogGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.434Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.MarkChangeSetRanGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.435Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ModifyDataTypeGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.436Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawParameterizedSqlGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.436Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RawSqlGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.437Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReindexGeneratorSQLite",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.438Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RemoveChangeSetRanStatusGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.439Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameColumnGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.439Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameSequenceGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.440Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.441Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.441Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.ReorganizeTableGeneratorDB2",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.442Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RuntimeGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.443Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.443Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogLockGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.444Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.445Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetNullableGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.446Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.446Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetViewRemarksGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.447Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.StoredProcedureGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.447Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TableRowCountGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.448Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.TagDatabaseGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.449Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UnlockDatabaseChangeLogGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.450Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateChangeSetChecksumGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.450Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateDataChangeGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.451Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.UpdateGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.452Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.CreateSequenceGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.453Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropDefaultValueGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.453Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.DropProcedureGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.454Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.InsertOrUpdateGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.454Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameTableGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.455Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.RenameViewGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.456Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetColumnRemarksGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.456Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance liquibase.sqlgenerator.core.SetTableRemarksGeneratorSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.457Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.markunused.change.MarkUnusedGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.458Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.CreateSynonymGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.458Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.appdba.synonym.change.DropSynonymGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.459Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.AddCheckConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.459Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DisableCheckConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.460Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.DropCheckConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.461Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.checkconstraint.change.EnableCheckConstraintGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.461Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageBodyGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.481Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.CreatePackageGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.482Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageBodyGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.483Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.databasepackage.change.DropPackageGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.483Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.CreateFunctionGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.484Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.function.change.DropFunctionGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.485Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.CreateTriggerGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.485Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DisableTriggerGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.486Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.DropTriggerGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.486Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.EnableTriggerGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.487Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.sqlgenerator.SqlGenerator instance com.datical.liquibase.ext.storedlogic.trigger.change.RenameTriggerGenerator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.504Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.508Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.509Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Lock Database",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.514Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BigIntType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.515Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BlobType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.516Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.BooleanType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.516Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CharType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.517Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.ClobType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.517Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.CurrencyType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.518Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DatabaseFunctionType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.518Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateTimeType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.519Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DateType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.520Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DecimalType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.520Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DoubleType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.520Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.FloatType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.521Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.IntType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.521Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.MediumIntType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.522Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NCharType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.523Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NVarcharType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.523Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.NumberType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.524Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.SmallIntType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.525Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimeType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.526Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimestampType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.526Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TinyIntType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.527Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UUIDType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.527Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.UnknownType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.527Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.VarcharType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.528Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.XMLType",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.528Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TextDataTypeSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.529Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.TimestampNTZTypeSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.529Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.datatype.LiquibaseDataType instance liquibase.datatype.core.DoubleDataTypeSnowflake",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.532Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.includeCatalogInSpecification found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.532Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.includeCatalogInSpecification is using the default value of false",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.535Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.536Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.538Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.540Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.543Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.formattedsql.FormattedSqlChangeLogParser",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.544Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.json.JsonChangeLogParser",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.545Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.sql.SqlChangeLogParser",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.555Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.validateXmlChangelogFiles found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.555Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.validateXmlChangelogFiles is using the default value of true",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.555Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.secureParsing found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.555Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.secureParsing is using the default value of true",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.556Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.xml.XMLChangeLogSAXParser",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.556Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.parser.ChangeLogParser instance liquibase.parser.core.yaml.YamlChangeLogParser",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.575Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.CustomPreconditionWrapper",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.575Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.AndPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.576Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ChangeLogPropertyDefinedPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.576Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ChangeSetExecutedPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.577Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ColumnExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.577Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.DBMSPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.578Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ForeignKeyExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.578Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.IndexExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.579Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.NotPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.579Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ObjectQuotingStrategyPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.580Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.OrPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.580Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.PreconditionContainer",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.580Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.PrimaryKeyExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.581Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.RowCountPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.581Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.RunningAsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.582Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.SequenceExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.582Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.SqlPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.583Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.TableExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.584Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.TableIsEmptyPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.585Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.UniqueConstraintExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.585Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.precondition.Precondition instance liquibase.precondition.core.ViewExistsPrecondition",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.612Z",
+  "level": "FINE",
+  "class": "liquibase.parser",
+  "thread": "1",
+  "message": "Resolving XML entity name='null', publicId='null', baseURI='null', systemId='http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd'",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.696Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.MockChangeLogHistoryService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.696Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.changelog.ChangeLogHistoryService instance liquibase.changelog.StandardChangeLogHistoryService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.699Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.outputFileEncoding found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.700Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.outputFileEncoding is using the default value of UTF-8",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.700Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 1680114482699 as a7150d0c7c20f3d96925471ff052c82d",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.715Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.CatalogComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.716Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ColumnComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.717Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.DefaultDatabaseObjectComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.717Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.ForeignKeyComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.718Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.IndexComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.718Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.PrimaryKeyComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.719Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.SchemaComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.719Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.TableComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.720Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance liquibase.diff.compare.core.UniqueConstraintComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.721Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.appdba.diff.compare.SynonymComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.721Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.StoredLogicComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.722Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.checkconstraint.CheckConstraintComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.722Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.diff.compare.DatabaseObjectComparator instance com.datical.liquibase.ext.storedlogic.trigger.TriggerComparator",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.728Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.730Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.734Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.737Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.785Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.hub.HubService instance liquibase.hub.core.MockHubService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.788Z",
+  "level": "FINE",
+  "class": "liquibase.servicelocator",
+  "thread": "1",
+  "message": "Loaded liquibase.hub.HubService instance liquibase.hub.core.StandardHubService",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.797Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for createTable:[\n    columns=[\n        [\n            [\n                nullable=\"false\"\n                primaryKey=\"true\"\n            ]\n            autoIncrement=\"true\"\n            name=\"id\"\n            type=\"int\"\n        ],\n        [\n            [\n                nullable=\"false\"\n            ]\n            name=\"name\"\n            type=\"varchar(50)\"\n        ],\n        [\n            name=\"address1\"\n            type=\"varchar(50)\"\n        ],\n        [\n            name=\"address2\"\n            type=\"varch... [truncated in log] as fc4370f08e26be6667c55500e53d99f5",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.798Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:fc4370f08e26be6667c55500e53d99f5: as c388851975dd002c2b94768f206e3131",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.799Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for tagDatabase:[\n    tag=\"newtables\"\n] as fda31fdc17e7c84c799502bd88741f12",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.799Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:fda31fdc17e7c84c799502bd88741f12: as e3fc164c10f60ab1ca060844f0325215",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.803Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for createTable:[\n    columns=[\n        [\n            [\n                nullable=\"false\"\n                primaryKey=\"true\"\n            ]\n            autoIncrement=\"true\"\n            name=\"id\"\n            type=\"int22\"\n        ],\n        [\n            [\n                nullable=\"false\"\n            ]\n            name=\"name\"\n            type=\"varchar(50)\"\n        ],\n        [\n            name=\"address1\"\n            type=\"varchar(50)\"\n        ],\n        [\n            name=\"address2\"\n            type=\"var... [truncated in log] as 09f11ecc9e7231e278c10a4968dea866",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.804Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:09f11ecc9e7231e278c10a4968dea866: as ba1432a852fe16ce2ab72c03d1dac870",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.806Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for addColumn:[\n    columns=[\n        [\n            name=\"country\"\n            type=\"varchar(2)\"\n        ]\n    ]\n    tableName=\"person04\"\n] as 81219e59569ffbe3afe83c5011b6fb0d",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.807Z",
+  "level": "FINE",
+  "class": "liquibase.util",
+  "thread": "1",
+  "message": "Computed checksum for 8:81219e59569ffbe3afe83c5011b6fb0d: as fe90a6983536493c3adbcbc380df3933",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.810Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Running Changeset: changelog.mdc-04-errors.xml::mdc-xml-01::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.812Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changeset changelog.mdc-04-errors.xml::mdc-xml-01::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.813Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "example-comment",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.814Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading ChangeSet: changelog.mdc-04-errors.xml::mdc-xml-01::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.817Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Executing Statement: liquibase.statement.core.CreateTableStatement@642c72cf",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.819Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "No configuration value for liquibase.sql.logLevel found",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.820Z",
+  "level": "FINE",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Configuration liquibase.sql.logLevel is using the default value of FINE",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.820Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id))",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.822Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "0 row(s) affected",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.822Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Table person04 created",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.825Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-04-errors.xml::mdc-xml-01::mmc-xml ran successfully in 13ms",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));",
+  "changesetOperationStop": "2023-03-29T13:28:02.824",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.830Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));",
+  "changesetOperationStop": "2023-03-29T13:28:02.824",
+  "changesetOutcome": "executed",
+  "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM PUBLIC.DATABASECHANGELOG;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.831Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('mdc-xml-01', 'mmc-xml', 'changelog.mdc-04-errors.xml', NOW(), 17, '8:c388851975dd002c2b94768f206e3131', 'createTable tableName=person04', 'example-comment', 'EXECUTED', 'example-context', 'simple', '4.20.0', '0114482788')",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));",
+  "changesetOperationStop": "2023-03-29T13:28:02.824",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.832Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "1 row(s) affected",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));",
+  "changesetOperationStop": "2023-03-29T13:28:02.824",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.833Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-01",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.812",
+  "changesetSql": "CREATE TABLE PUBLIC.person04 (id INT GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_PERSON04 PRIMARY KEY (id));",
+  "changesetOperationStop": "2023-03-29T13:28:02.824",
+  "changesetOutcome": "executed",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.838Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Running Changeset: changelog.mdc-04-errors.xml::tagDatabase-example::liquibase-docs",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.839Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changeset changelog.mdc-04-errors.xml::tagDatabase-example::liquibase-docs",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.840Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading ChangeSet: changelog.mdc-04-errors.xml::tagDatabase-example::liquibase-docs",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.841Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Tag 'newtables' applied to database",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839",
+  "changesetSql": ""
+}
+{
+  "timestamp": "2023-03-29T18:28:02.842Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-04-errors.xml::tagDatabase-example::liquibase-docs ran successfully in 3ms",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839",
+  "changesetSql": "",
+  "changesetOperationStop": "2023-03-29T13:28:02.842",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.844Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID, TAG) VALUES ('tagDatabase-example', 'liquibase-docs', 'changelog.mdc-04-errors.xml', NOW(), 18, '8:e3fc164c10f60ab1ca060844f0325215', 'tagDatabase', '', 'EXECUTED', NULL, NULL, '4.20.0', '0114482788', 'newtables')",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839",
+  "changesetSql": "",
+  "changesetOperationStop": "2023-03-29T13:28:02.842",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.845Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "1 row(s) affected",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839",
+  "changesetSql": "",
+  "changesetOperationStop": "2023-03-29T13:28:02.842",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.845Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-03-29T13:28:02.839",
+  "changesetSql": "",
+  "changesetOperationStop": "2023-03-29T13:28:02.842",
+  "changesetOutcome": "executed",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.850Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Running Changeset: changelog.mdc-04-errors.xml::mdc-xml-02::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.851Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changeset changelog.mdc-04-errors.xml::mdc-xml-02::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.852Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "this changeset has an error",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.852Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading ChangeSet: changelog.mdc-04-errors.xml::mdc-xml-02::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.855Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Executing Statement: liquibase.statement.core.CreateTableStatement@17136390",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851",
+  "changesetSql": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.856Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id))",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851",
+  "changesetSql": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.858Z",
+  "level": "SEVERE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-04-errors.xml::mdc-xml-02::mmc-xml encountered an exception.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851",
+  "changesetSql": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.858Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Changeset changelog.mdc-04-errors.xml::mdc-xml-02::mmc-xml failed, but failOnError was false.  Error: Unknown data type: \"INT22\"; SQL statement:\nCREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id)) [50004-214] [Failed SQL: (50004) CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id))]",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851",
+  "changesetSql": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.859Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Failure Stacktrace",
+  "exception": "\nliquibase.exception.DatabaseException: Unknown data type: \"INT22\"; SQL statement:\nCREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id)) [50004-214] [Failed SQL: (50004) CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id))]\n\tat liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:445)\n\tat liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:77)\n\tat liquibase.executor.jvm.JdbcExecutor.execute(JdbcExecutor.java:160)\n\tat liquibase.database.AbstractJdbcDatabase.execute(AbstractJdbcDatabase.java:1270)\n\tat liquibase.database.AbstractJdbcDatabase.executeStatements(AbstractJdbcDatabase.java:1252)\n\tat liquibase.changelog.ChangeSet.execute(ChangeSet.java:702)\n\tat liquibase.changelog.visitor.UpdateVisitor.visit(UpdateVisitor.java:59)\n\tat liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:124)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:124)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Scope.child(Scope.java:256)\n\tat liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:105)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Scope.child(Scope.java:256)\n\tat liquibase.Scope.child(Scope.java:260)\n\tat liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:75)\n\tat liquibase.Liquibase$4.lambda$run$0(Liquibase.java:962)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Scope.child(Scope.java:256)\n\tat liquibase.Liquibase$4.run(Liquibase.java:962)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Liquibase.runInScope(Liquibase.java:2639)\n\tat liquibase.Liquibase.update(Liquibase.java:880)\n\tat liquibase.integration.commandline.Main.lambda$doMigration$3(Main.java:1812)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.integration.commandline.Main.doMigration(Main.java:1811)\n\tat liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:415)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.integration.commandline.Main$1.run(Main.java:414)\n\tat liquibase.integration.commandline.Main$1.run(Main.java:231)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.Main.run(Main.java:231)\n\tat liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)\n\tat liquibase.command.CommandScope.execute(CommandScope.java:195)\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2041)\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2453)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2415)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2417)\n\tat picocli.CommandLine.execute(CommandLine.java:2170)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$null$2(LiquibaseCommandLine.java:367)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(LiquibaseCommandLine.java:332)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:330)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:91)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)\nCaused by: org.h2.jdbc.JdbcSQLNonTransientException: Unknown data type: \"INT22\"; SQL statement:\nCREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id)) [50004-214]\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:554)\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:477)\n\tat org.h2.message.DbException.get(DbException.java:223)\n\tat org.h2.message.DbException.get(DbException.java:199)\n\tat org.h2.command.Parser.readIfDataType1(Parser.java:6249)\n\tat org.h2.command.Parser.readIfDataType(Parser.java:6087)\n\tat org.h2.command.Parser.parseColumnWithType(Parser.java:6069)\n\tat org.h2.command.Parser.parseColumnForTable(Parser.java:5948)\n\tat org.h2.command.Parser.parseTableColumnDefinition(Parser.java:9331)\n\tat org.h2.command.Parser.parseCreateTable(Parser.java:9271)\n\tat org.h2.command.Parser.parseCreate(Parser.java:6784)\n\tat org.h2.command.Parser.parsePrepared(Parser.java:763)\n\tat org.h2.command.Parser.parse(Parser.java:689)\n\tat org.h2.command.Parser.parse(Parser.java:661)\n\tat org.h2.command.Parser.prepareCommand(Parser.java:569)\n\tat org.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:631)\n\tat org.h2.server.TcpServerThread.process(TcpServerThread.java:288)\n\tat org.h2.server.TcpServerThread.run(TcpServerThread.java:191)\n\tat java.base/java.lang.Thread.run(Thread.java:830)\n\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:554)\n\tat org.h2.engine.SessionRemote.readException(SessionRemote.java:637)\n\tat org.h2.engine.SessionRemote.done(SessionRemote.java:606)\n\tat org.h2.command.CommandRemote.prepare(CommandRemote.java:78)\n\tat org.h2.command.CommandRemote.<init>(CommandRemote.java:50)\n\tat org.h2.engine.SessionRemote.prepareCommand(SessionRemote.java:480)\n\tat org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1116)\n\tat org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:237)\n\tat org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:223)\n\tat liquibase.executor.jvm.JdbcExecutor$ExecuteStatementCallback.doInStatement(JdbcExecutor.java:441)\n\t... 79 more\n",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851",
+  "changesetSql": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id));"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.862Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-02",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "this changeset has an error",
+  "changesetLabel": "has-error",
+  "changesetContext": "example-contexts",
+  "changesetOperationStart": "2023-03-29T13:28:02.851",
+  "changesetSql": "CREATE TABLE PUBLIC.company04 (id INT22 GENERATED BY DEFAULT AS IDENTITY NOT NULL, name VARCHAR(50) NOT NULL, address1 VARCHAR(50), address2 VARCHAR(50), city VARCHAR(30), CONSTRAINT PK_COMPANY04 PRIMARY KEY (id));",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.866Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Running Changeset: changelog.mdc-04-errors.xml::mdc-xml-03::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.868Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changeset changelog.mdc-04-errors.xml::mdc-xml-03::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.868Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "example-comment",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.869Z",
+  "level": "FINE",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading ChangeSet: changelog.mdc-04-errors.xml::mdc-xml-03::mmc-xml",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.870Z",
+  "level": "FINE",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Executing Statement: liquibase.statement.core.AddColumnStatement@58bad46f",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.871Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2)",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.873Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "0 row(s) affected",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.874Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Columns country(varchar(2)) added to person04",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.875Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-04-errors.xml::mdc-xml-03::mmc-xml ran successfully in 7ms",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);",
+  "changesetOperationStop": "2023-03-29T13:28:02.874",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.876Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "INSERT INTO PUBLIC.DATABASECHANGELOG (ID, AUTHOR, FILENAME, DATEEXECUTED, ORDEREXECUTED, MD5SUM, DESCRIPTION, COMMENTS, EXECTYPE, CONTEXTS, LABELS, LIQUIBASE, DEPLOYMENT_ID) VALUES ('mdc-xml-03', 'mmc-xml', 'changelog.mdc-04-errors.xml', NOW(), 19, '8:fe90a6983536493c3adbcbc380df3933', 'addColumn tableName=person04', 'example-comment', 'EXECUTED', 'example-context', 'simple', '4.20.0', '0114482788')",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);",
+  "changesetOperationStop": "2023-03-29T13:28:02.874",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.877Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "1 row(s) affected",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);",
+  "changesetOperationStop": "2023-03-29T13:28:02.874",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.878Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetOperationStart": "2023-03-29T13:28:02.868",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 ADD country VARCHAR(2);",
+  "changesetOperationStop": "2023-03-29T13:28:02.874",
+  "changesetOutcome": "executed",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.880Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Update command completed successfully.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "deploymentOutcome": "success",
+  "deploymentOutcomeCount": "4"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.880Z",
+  "level": "FINE",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Release Database Lock",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.883Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T18:28:02.884Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "updateToTag",
+  "liquibaseCommandName": "updateToTag",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "deploymentId": "0114482788"
+}

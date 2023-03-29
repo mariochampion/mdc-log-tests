@@ -1,0 +1,99 @@
+##########           LIQUIBASE FLOWFILE                ##########
+##########  learn more http://docs.liquibase.com/flow  ##########
+
+
+
+#globalVariables:
+#  ## make this match your path to what is expected by your log shipping agent
+#  VARSLOGPATH: "../../../../../var/log"
+
+
+
+
+# do some stages 
+stages:
+  ## A stage of actions.
+
+  runChangelogsyncCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.changelogsync.flowfile.yaml"}
+
+
+  runUpdateCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.update.flowfile.yaml"}
+
+
+  runUpdateOneChangesetCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.updateonechangeset.flowfile.yaml"}
+
+
+  runUpdateCountCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.updatecount.flowfile.yaml"}
+
+
+  runUpdateToTagCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.updatetotag.flowfile.yaml"}
+
+
+
+  ###### ROLLBACKS
+  runRollbackCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.rollback.flowfile.yaml"}
+
+
+  runRollbackCountCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.rollbackcount.flowfile.yaml"}
+
+
+  runRollbacksTargetedCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.rollbackstargeted.flowfile.yaml"}
+
+
+
+      
+
+## The endStage ALWAYS RUNS. 
+## So put actions here which you desire to perform whether previous stages' actions succeed or fail.
+## If you do not want any actions to ALWAYS RUN, simply delete the endStage from your flow file.
+
+endStage:
+  actions:
+    - type: liquibase
+      command: history
+      
+    - type: liquibase
+      command: dropall
+      
+    #### COMMENTED OUT FOR NOW, AS I AM NOT SHIPPING THESE LOG TO MY LOG ANALYSIS TOOL
+    #### SIMPLY CONFIGURE YOUR VARSLOGPATH ABOVE IN THE globalVariables
+    #- type: shell
+    #  command: echo "-----MOVING LOGS to ${VARSLOGPATH}/${LOGSDIRNAME}"
+
+    ##- type: shell
+    ##  command: bash -c "mv ${LOGSDIRNAME}/* ${VARSLOGPATH}/${LOGSDIRNAME}"
+      ## mv ./* ../../../../../var/log/mdclogfiles/
+      
+      

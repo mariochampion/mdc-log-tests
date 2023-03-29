@@ -1,0 +1,149 @@
+##########           LIQUIBASE FLOWFILE                ##########
+##########  learn more http://docs.liquibase.com/flow  ##########
+
+
+## Set up some global variables for property substitution in ANY stage
+globalVariables:
+  THISTAG: "v2"
+  THISCOMMAND: "rollback --tag=${THISTAG}"
+  THISLOGLEVEL: "INFO"
+  LOGSDIRNAME: "mdclogfiles"
+  LOGDIRLOC: "."  
+  LOGBASE: "allcmds-${THISLOGLEVEL}"
+  LOGEXTENSION: "log"
+  CHANGELOGBASE: "changelog.mdc"
+
+
+# do some stages 
+stages:
+
+
+  ## A stage of actions. 
+  MakeLogFile01:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "cafe"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase updatecount --count=1 --changelogfile="${CHANGELOGFILE}"
+      - type: shell
+        command: liquibase tag --tag="${THISTAG}"
+      - type: shell
+        command: liquibase update --changelogfile="${CHANGELOGFILE}"        
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"        
+          
+  ##############################################################
+
+
+  ## A stage of actions. 
+  MakeLogFile02:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "somename"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase updatecount --count=1 --changelogfile="${CHANGELOGFILE}"
+      - type: shell
+        command: liquibase tag --tag="${THISTAG}"
+      - type: shell
+        command: liquibase update --changelogfile="${CHANGELOGFILE}"        
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"     
+
+          
+  ##############################################################
+  
+  
+  ## A stage of actions. 
+  MakeLogFile03:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "03"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase updatecount --count=1 --changelogfile="${CHANGELOGFILE}"
+      - type: shell
+        command: liquibase tag --tag="${THISTAG}"
+      - type: shell
+        command: liquibase update --changelogfile="${CHANGELOGFILE}"        
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"    
+
+          
+  ##############################################################  
+
+
+
+  ## A stage of actions. 
+  MakeLogFile04:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "04-errors"
+      CHANGELOGEXT: "xml"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase updatecount --count=1 --changelogfile="${CHANGELOGFILE}"
+      - type: shell
+        command: liquibase tag --tag="${THISTAG}"
+      - type: shell
+        command: liquibase update --changelogfile="${CHANGELOGFILE}"        
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"     
+
+          
+  ##############################################################  
+
+
+## The endStage ALWAYS RUNS. 
+## So put actions here which you desire to perform whether previous stages' actions succeed or fail.
+## If you do not want any actions to ALWAYS RUN, simply delete the endStage from your flow file.
+
+
+
+
+
+
+endStage:
+  actions:
+    - type: liquibase
+      command: history
+      
+    - type: liquibase
+      command: dropall
+      
+      
