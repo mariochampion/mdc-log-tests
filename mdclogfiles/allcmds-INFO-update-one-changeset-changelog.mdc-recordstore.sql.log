@@ -1,0 +1,236 @@
+{
+  "timestamp": "2023-04-02T18:35:58.140Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.lan"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.216Z",
+  "level": "WARNING",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Potentially ignored key(s) in file exists at path liquibase.properties\n - 'changeLogFile'"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.368Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "updateOneChangeset"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.479Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from DATABASECHANGELOG",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-04-02T18:35:58.492Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT * FROM DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.516Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.522Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT LOCKED FROM DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.542Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.544Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-04-02T18:35:58.574Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.580Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from DATABASECHANGELOG",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.583Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT * FROM DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.597Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Custom SQL executed",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetComment": "create customers table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-04-02T13:35:58.587",
+  "changesetSql": "CREATE TABLE customers (\nid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,\nfirst_name VARCHAR(255) NOT NULL,\nlast_name VARCHAR(255) NOT NULL,\naddress VARCHAR(255) NOT NULL,\nemail VARCHAR(255),\nphone VARCHAR(20)\n);"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.598Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-recordstore.sql::4::chatGPT ran successfully in 12ms",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetComment": "create customers table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-04-02T13:35:58.587",
+  "changesetSql": "CREATE TABLE customers (\nid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,\nfirst_name VARCHAR(255) NOT NULL,\nlast_name VARCHAR(255) NOT NULL,\naddress VARCHAR(255) NOT NULL,\nemail VARCHAR(255),\nphone VARCHAR(20)\n);",
+  "changesetOperationStop": "2023-04-02T13:35:58.598",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.603Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetComment": "create customers table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-04-02T13:35:58.587",
+  "changesetSql": "CREATE TABLE customers (\nid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,\nfirst_name VARCHAR(255) NOT NULL,\nlast_name VARCHAR(255) NOT NULL,\naddress VARCHAR(255) NOT NULL,\nemail VARCHAR(255),\nphone VARCHAR(20)\n);",
+  "changesetOperationStop": "2023-04-02T13:35:58.598",
+  "changesetOutcome": "executed",
+  "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM DATABASECHANGELOG;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.607Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetComment": "create customers table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetOperationStart": "2023-04-02T13:35:58.587",
+  "changesetSql": "CREATE TABLE customers (\nid BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,\nfirst_name VARCHAR(255) NOT NULL,\nlast_name VARCHAR(255) NOT NULL,\naddress VARCHAR(255) NOT NULL,\nemail VARCHAR(255),\nphone VARCHAR(20)\n);",
+  "changesetOperationStop": "2023-04-02T13:35:58.598",
+  "changesetOutcome": "executed",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.615Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:58.616Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}

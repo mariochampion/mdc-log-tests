@@ -1,15 +1,15 @@
 {
-  "timestamp": "2023-03-29T19:29:50.782Z",
+  "timestamp": "2023-04-02T18:36:27.486Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:29:50.904Z",
+  "timestamp": "2023-04-02T18:36:27.608Z",
   "level": "INFO",
   "class": "liquibase.license",
   "thread": "1",
@@ -17,7 +17,7 @@
   "liquibaseOperation": "rollback"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.044Z",
+  "timestamp": "2023-04-02T18:36:27.751Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -26,7 +26,7 @@
   "liquibaseCommandName": "rollback"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.166Z",
+  "timestamp": "2023-04-02T18:36:27.845Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -42,7 +42,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.172Z",
+  "timestamp": "2023-04-02T18:36:27.851Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -58,7 +58,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.192Z",
+  "timestamp": "2023-04-02T18:36:27.869Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -70,11 +70,11 @@
   "rollbackToTag": "v2",
   "rollbackScript": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
-  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.194Z",
+  "timestamp": "2023-04-02T18:36:27.871Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -88,7 +88,7 @@
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.261Z",
+  "timestamp": "2023-04-02T18:36:27.933Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -105,7 +105,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.265Z",
+  "timestamp": "2023-04-02T18:36:27.936Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -122,7 +122,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.270Z",
+  "timestamp": "2023-04-02T18:36:27.940Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -137,7 +137,7 @@
   "changelogFile": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.275Z",
+  "timestamp": "2023-04-02T18:36:27.945Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -154,7 +154,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.335Z",
+  "timestamp": "2023-04-02T18:36:27.984Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -170,18 +170,18 @@
   "changesetId": "create-bonuses",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.298",
+  "changesetOperationStart": "2023-04-02T13:36:27.969",
   "changesetComment": "get the bonuses started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
   "changesetSql": "DROP TABLE bonuses;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.33",
+  "changesetOperationStop": "2023-04-02T13:36:27.978",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.347Z",
+  "timestamp": "2023-04-02T18:36:27.997Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -197,18 +197,18 @@
   "changesetId": "create-state-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.341",
+  "changesetOperationStart": "2023-04-02T13:36:27.991",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
   "changesetSql": "DROP TABLE state_taxes;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.345",
+  "changesetOperationStop": "2023-04-02T13:36:27.994",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.358Z",
+  "timestamp": "2023-04-02T18:36:28.009Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -224,18 +224,18 @@
   "changesetId": "create-fed-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.352",
+  "changesetOperationStart": "2023-04-02T13:36:28.002",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
   "changesetSql": "DROP TABLE fed_taxes;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.356",
+  "changesetOperationStop": "2023-04-02T13:36:28.005",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-fed-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.370Z",
+  "timestamp": "2023-04-02T18:36:28.041Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -251,18 +251,18 @@
   "changesetId": "create-vendors",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.364",
+  "changesetOperationStart": "2023-04-02T13:36:28.013",
   "changesetComment": "get the vendors started",
   "changesetLabel": "people",
   "changesetContext": "one",
   "changesetSql": "DROP TABLE vendors;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.367",
+  "changesetOperationStop": "2023-04-02T13:36:28.039",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-vendors' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.379Z",
+  "timestamp": "2023-04-02T18:36:28.051Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -278,18 +278,18 @@
   "changesetId": "create-staffers",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.374",
+  "changesetOperationStart": "2023-04-02T13:36:28.045",
   "changesetComment": "get the staffers started",
   "changesetLabel": "people",
   "changesetContext": "one",
   "changesetSql": "DROP TABLE staffers;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.377",
+  "changesetOperationStop": "2023-04-02T13:36:28.048",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-staffers' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.390Z",
+  "timestamp": "2023-04-02T18:36:28.060Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -305,99 +305,18 @@
   "changesetId": "create-drinks",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.384",
+  "changesetOperationStart": "2023-04-02T13:36:28.055",
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
   "changesetSql": "DROP TABLE drinks;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.387",
+  "changesetOperationStop": "2023-04-02T13:36:28.058",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-drinks' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.403Z",
-  "level": "INFO",
-  "class": "liquibase.executor",
-  "thread": "1",
-  "message": "Changelog query completed.",
-  "liquibaseOperation": "rollback",
-  "liquibaseCommandName": "rollback",
-  "commandLabelFilter": "",
-  "commandContextFilter": "",
-  "rollbackToTag": "v2",
-  "rollbackScript": "",
-  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
-  "changelogFile": "changelog.mdc-cafe.sql",
-  "changesetId": "create-foods",
-  "changesetAuthor": "mmc",
-  "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.396",
-  "changesetComment": "get the foods started",
-  "changesetLabel": "edible",
-  "changesetContext": "one",
-  "changesetSql": "DROP TABLE foods;",
-  "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.401",
-  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-foods' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
-  "databaseChangelogTableOutcome": "executed"
-}
-{
-  "timestamp": "2023-03-29T19:29:51.412Z",
-  "level": "INFO",
-  "class": "liquibase.executor",
-  "thread": "1",
-  "message": "Changelog query completed.",
-  "liquibaseOperation": "rollback",
-  "liquibaseCommandName": "rollback",
-  "commandLabelFilter": "",
-  "commandContextFilter": "",
-  "rollbackToTag": "v2",
-  "rollbackScript": "",
-  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
-  "changelogFile": "changelog.mdc-cafe.sql",
-  "changesetId": "create-table-with-table-in-name",
-  "changesetAuthor": "mmc",
-  "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.407",
-  "changesetComment": "get the tables started",
-  "changesetLabel": "furniture",
-  "changesetContext": "one",
-  "changesetSql": "DROP TABLE cafetables;",
-  "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.41",
-  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-table-with-table-in-name' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
-  "databaseChangelogTableOutcome": "executed"
-}
-{
-  "timestamp": "2023-03-29T19:29:51.420Z",
-  "level": "INFO",
-  "class": "liquibase.executor",
-  "thread": "1",
-  "message": "Changelog query completed.",
-  "liquibaseOperation": "rollback",
-  "liquibaseCommandName": "rollback",
-  "commandLabelFilter": "",
-  "commandContextFilter": "",
-  "rollbackToTag": "v2",
-  "rollbackScript": "",
-  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
-  "changelogFile": "changelog.mdc-cafe.sql",
-  "changesetId": "create-stools",
-  "changesetAuthor": "mmc",
-  "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:29:51.415",
-  "changesetComment": "get the stools started",
-  "changesetLabel": "furniture",
-  "changesetContext": "one",
-  "changesetSql": "DROP TABLE stools;",
-  "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:29:51.418",
-  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-stools' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
-  "databaseChangelogTableOutcome": "executed"
-}
-{
-  "timestamp": "2023-03-29T19:29:51.423Z",
+  "timestamp": "2023-04-02T18:36:28.063Z",
   "level": "INFO",
   "class": "liquibase",
   "thread": "1",
@@ -411,60 +330,42 @@
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
   "changesetsRolledback": {
-    "changesetCount": 9,
+    "changesetCount": 6,
     "changesets": [
       {
         "author": "mmc",
         "changesetId": "create-bonuses",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-state-taxes",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-fed-taxes",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-vendors",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-staffers",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-drinks",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-foods",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-table-with-table-in-name",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-stools",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       }
     ]
@@ -473,7 +374,7 @@
   "deploymentOutcome": "success"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.431Z",
+  "timestamp": "2023-04-02T18:36:28.070Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -487,60 +388,42 @@
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
   "changesetsRolledback": {
-    "changesetCount": 9,
+    "changesetCount": 6,
     "changesets": [
       {
         "author": "mmc",
         "changesetId": "create-bonuses",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-state-taxes",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-fed-taxes",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-vendors",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-staffers",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-drinks",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-foods",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-table-with-table-in-name",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-stools",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       }
     ]
@@ -550,7 +433,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:51.433Z",
+  "timestamp": "2023-04-02T18:36:28.072Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -564,60 +447,42 @@
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
   "changesetsRolledback": {
-    "changesetCount": 9,
+    "changesetCount": 6,
     "changesets": [
       {
         "author": "mmc",
         "changesetId": "create-bonuses",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-state-taxes",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-fed-taxes",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-vendors",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-staffers",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-drinks",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-foods",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-table-with-table-in-name",
-        "deploymentId": "0118189198",
-        "filepath": "changelog.mdc-cafe.sql"
-      },
-      {
-        "author": "mmc",
-        "changesetId": "create-stools",
-        "deploymentId": "0118189198",
+        "deploymentId": "0460585937",
         "filepath": "changelog.mdc-cafe.sql"
       }
     ]

@@ -1,0 +1,622 @@
+{
+  "timestamp": "2023-03-29T19:30:21.030Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.144Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.293Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.395Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.401Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.420Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.422Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.505Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.510Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.516Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.522Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.570Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T14:30:21.553",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T14:30:21.566",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.581Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-03-29T14:30:21.576",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T14:30:21.579",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.589Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Rollback command completed successfully.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0118219361",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0118219361",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  },
+  "deploymentOutcome": "success"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.598Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0118219361",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0118219361",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  },
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:21.600Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0118219361",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0118219361",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  }
+}
+{
+  "timestamp": "2023-04-02T15:38:10.628Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.lan"
+}
+{
+  "timestamp": "2023-04-02T15:38:10.731Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollbackCount"
+}
+{
+  "timestamp": "2023-04-02T15:38:10.862Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount"
+}
+{
+  "timestamp": "2023-04-02T15:38:10.963Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:10.969Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:10.988Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:10.991Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.049Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.053Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.057Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.061Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.095Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-bonuses",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-04-02T10:38:11.081",
+  "changesetComment": "get the bonuses started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE bonuses;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T10:38:11.09",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.106Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetId": "create-state-taxes",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetOperationStart": "2023-04-02T10:38:11.101",
+  "changesetComment": "get the taxes started",
+  "changesetLabel": "fiscal",
+  "changesetContext": "two",
+  "changesetSql": "DROP TABLE state_taxes;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T10:38:11.104",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.111Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Rollback command completed successfully.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0449889110",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0449889110",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  },
+  "deploymentOutcome": "success"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.119Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0449889110",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0449889110",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  },
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T15:38:11.121Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollbackCount",
+  "liquibaseCommandName": "rollbackCount",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackCount": "2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-cafe.sql",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc",
+        "changesetId": "create-bonuses",
+        "deploymentId": "0449889110",
+        "filepath": "changelog.mdc-cafe.sql"
+      },
+      {
+        "author": "mmc",
+        "changesetId": "create-state-taxes",
+        "deploymentId": "0449889110",
+        "filepath": "changelog.mdc-cafe.sql"
+      }
+    ]
+    
+  }
+}

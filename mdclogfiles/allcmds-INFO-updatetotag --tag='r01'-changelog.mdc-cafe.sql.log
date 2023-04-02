@@ -1,15 +1,15 @@
 {
-  "timestamp": "2023-03-29T19:29:34.178Z",
+  "timestamp": "2023-04-02T18:36:10.446Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.283Z",
+  "timestamp": "2023-04-02T18:36:10.567Z",
   "level": "INFO",
   "class": "liquibase.license",
   "thread": "1",
@@ -17,7 +17,7 @@
   "liquibaseOperation": "updateToTag"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.413Z",
+  "timestamp": "2023-04-02T18:36:10.706Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -26,7 +26,7 @@
   "liquibaseCommandName": "updateToTag"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.518Z",
+  "timestamp": "2023-04-02T18:36:10.818Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -39,7 +39,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.523Z",
+  "timestamp": "2023-04-02T18:36:10.823Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -52,7 +52,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.529Z",
+  "timestamp": "2023-04-02T18:36:10.829Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -65,7 +65,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.535Z",
+  "timestamp": "2023-04-02T18:36:10.836Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -78,7 +78,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.540Z",
+  "timestamp": "2023-04-02T18:36:10.842Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -87,11 +87,11 @@
   "liquibaseCommandName": "updateToTag",
   "commandLabelFilter": "",
   "commandContextFilter": "",
-  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.542Z",
+  "timestamp": "2023-04-02T18:36:10.843Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -102,7 +102,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2023-03-29T19:29:34.581Z",
+  "timestamp": "2023-04-02T18:36:10.884Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -115,7 +115,7 @@
   "changelogFile": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.587Z",
+  "timestamp": "2023-04-02T18:36:10.890Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -130,7 +130,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.589Z",
+  "timestamp": "2023-04-02T18:36:10.893Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -143,7 +143,7 @@
   "changelogFile": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.593Z",
+  "timestamp": "2023-04-02T18:36:10.898Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -158,7 +158,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.597Z",
+  "timestamp": "2023-04-02T18:36:10.901Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -173,7 +173,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.631Z",
+  "timestamp": "2023-04-02T18:36:10.953Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -184,42 +184,42 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-cafe",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "",
   "changesetLabel": "cafe-setup",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.622",
+  "changesetOperationStart": "2023-04-02T13:36:10.926",
   "changesetSql": "create table cafe (\n\t    id int primary key,\n\t    name varchar(255) not null,\n\t    address1 varchar(255),\n\t    address2 varchar(255),\n\t    city varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.634Z",
+  "timestamp": "2023-04-02T18:36:10.956Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
-  "message": "ChangeSet changelog.mdc-cafe.sql::create-cafe::mmc ran successfully in 12ms",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-cafe::mmc ran successfully in 30ms",
   "liquibaseOperation": "updateToTag",
   "liquibaseCommandName": "updateToTag",
   "commandLabelFilter": "",
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-cafe",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "",
   "changesetLabel": "cafe-setup",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.622",
+  "changesetOperationStart": "2023-04-02T13:36:10.926",
   "changesetSql": "create table cafe (\n\t    id int primary key,\n\t    name varchar(255) not null,\n\t    address1 varchar(255),\n\t    address2 varchar(255),\n\t    city varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.633",
+  "changesetOperationStop": "2023-04-02T13:36:10.955",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.639Z",
+  "timestamp": "2023-04-02T18:36:10.962Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -230,22 +230,22 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-cafe",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "",
   "changesetLabel": "cafe-setup",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.622",
+  "changesetOperationStart": "2023-04-02T13:36:10.926",
   "changesetSql": "create table cafe (\n\t    id int primary key,\n\t    name varchar(255) not null,\n\t    address1 varchar(255),\n\t    address2 varchar(255),\n\t    city varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.633",
+  "changesetOperationStop": "2023-04-02T13:36:10.955",
   "changesetOutcome": "executed",
   "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM PUBLIC.DATABASECHANGELOG;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.643Z",
+  "timestamp": "2023-04-02T18:36:10.966Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -256,21 +256,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-cafe",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "",
   "changesetLabel": "cafe-setup",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.622",
+  "changesetOperationStart": "2023-04-02T13:36:10.926",
   "changesetSql": "create table cafe (\n\t    id int primary key,\n\t    name varchar(255) not null,\n\t    address1 varchar(255),\n\t    address2 varchar(255),\n\t    city varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.633",
+  "changesetOperationStop": "2023-04-02T13:36:10.955",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.651Z",
+  "timestamp": "2023-04-02T18:36:10.975Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -281,18 +281,18 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-stools",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the stools started",
   "changesetLabel": "furniture",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.648",
+  "changesetOperationStart": "2023-04-02T13:36:10.971",
   "changesetSql": "create table stools (\n    id int primary key,\n    name varchar(255) not null,\n    address1 varchar(255),\n    address2 varchar(255),\n    city varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.653Z",
+  "timestamp": "2023-04-02T18:36:10.977Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -303,20 +303,20 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-stools",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the stools started",
   "changesetLabel": "furniture",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.648",
+  "changesetOperationStart": "2023-04-02T13:36:10.971",
   "changesetSql": "create table stools (\n    id int primary key,\n    name varchar(255) not null,\n    address1 varchar(255),\n    address2 varchar(255),\n    city varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.652",
+  "changesetOperationStop": "2023-04-02T13:36:10.976",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.655Z",
+  "timestamp": "2023-04-02T18:36:10.979Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -327,21 +327,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-stools",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the stools started",
   "changesetLabel": "furniture",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.648",
+  "changesetOperationStart": "2023-04-02T13:36:10.971",
   "changesetSql": "create table stools (\n    id int primary key,\n    name varchar(255) not null,\n    address1 varchar(255),\n    address2 varchar(255),\n    city varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.652",
+  "changesetOperationStop": "2023-04-02T13:36:10.976",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.664Z",
+  "timestamp": "2023-04-02T18:36:10.988Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -352,42 +352,42 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-table-with-table-in-name",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the tables started",
   "changesetLabel": "furniture",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.66",
+  "changesetOperationStart": "2023-04-02T13:36:10.984",
   "changesetSql": "create table cafetables (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.666Z",
+  "timestamp": "2023-04-02T18:36:10.990Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
-  "message": "ChangeSet changelog.mdc-cafe.sql::create-table-with-table-in-name::mmc ran successfully in 5ms",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-table-with-table-in-name::mmc ran successfully in 6ms",
   "liquibaseOperation": "updateToTag",
   "liquibaseCommandName": "updateToTag",
   "commandLabelFilter": "",
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-table-with-table-in-name",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the tables started",
   "changesetLabel": "furniture",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.66",
+  "changesetOperationStart": "2023-04-02T13:36:10.984",
   "changesetSql": "create table cafetables (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.665",
+  "changesetOperationStop": "2023-04-02T13:36:10.989",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.669Z",
+  "timestamp": "2023-04-02T18:36:10.992Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -398,21 +398,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-table-with-table-in-name",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the tables started",
   "changesetLabel": "furniture",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.66",
+  "changesetOperationStart": "2023-04-02T13:36:10.984",
   "changesetSql": "create table cafetables (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.665",
+  "changesetOperationStop": "2023-04-02T13:36:10.989",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.678Z",
+  "timestamp": "2023-04-02T18:36:11Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -423,42 +423,42 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-foods",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the foods started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.675",
+  "changesetOperationStart": "2023-04-02T13:36:10.997",
   "changesetSql": "create table foods (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.681Z",
+  "timestamp": "2023-04-02T18:36:11.002Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
-  "message": "ChangeSet changelog.mdc-cafe.sql::create-foods::mmc ran successfully in 6ms",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-foods::mmc ran successfully in 5ms",
   "liquibaseOperation": "updateToTag",
   "liquibaseCommandName": "updateToTag",
   "commandLabelFilter": "",
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-foods",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the foods started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.675",
+  "changesetOperationStart": "2023-04-02T13:36:10.997",
   "changesetSql": "create table foods (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.68",
+  "changesetOperationStop": "2023-04-02T13:36:11.002",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.683Z",
+  "timestamp": "2023-04-02T18:36:11.005Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -469,21 +469,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-foods",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the foods started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.675",
+  "changesetOperationStart": "2023-04-02T13:36:10.997",
   "changesetSql": "create table foods (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.68",
+  "changesetOperationStop": "2023-04-02T13:36:11.002",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.714Z",
+  "timestamp": "2023-04-02T18:36:11.012Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -494,18 +494,18 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-drinks",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.71",
+  "changesetOperationStart": "2023-04-02T13:36:11.008",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.716Z",
+  "timestamp": "2023-04-02T18:36:11.014Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -516,20 +516,20 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-drinks",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.71",
+  "changesetOperationStart": "2023-04-02T13:36:11.008",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.715",
+  "changesetOperationStop": "2023-04-02T13:36:11.013",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.718Z",
+  "timestamp": "2023-04-02T18:36:11.016Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -540,21 +540,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-drinks",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.71",
+  "changesetOperationStart": "2023-04-02T13:36:11.008",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.715",
+  "changesetOperationStop": "2023-04-02T13:36:11.013",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.725Z",
+  "timestamp": "2023-04-02T18:36:11.023Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -565,18 +565,18 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-staffers",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the staffers started",
   "changesetLabel": "people",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.722",
+  "changesetOperationStart": "2023-04-02T13:36:11.02",
   "changesetSql": "create table staffers (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.727Z",
+  "timestamp": "2023-04-02T18:36:11.026Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -587,20 +587,20 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-staffers",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the staffers started",
   "changesetLabel": "people",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.722",
+  "changesetOperationStart": "2023-04-02T13:36:11.02",
   "changesetSql": "create table staffers (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.726",
+  "changesetOperationStop": "2023-04-02T13:36:11.025",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.729Z",
+  "timestamp": "2023-04-02T18:36:11.028Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -611,21 +611,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-staffers",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the staffers started",
   "changesetLabel": "people",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.722",
+  "changesetOperationStart": "2023-04-02T13:36:11.02",
   "changesetSql": "create table staffers (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.726",
+  "changesetOperationStop": "2023-04-02T13:36:11.025",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.737Z",
+  "timestamp": "2023-04-02T18:36:11.036Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -636,18 +636,18 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-vendors",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the vendors started",
   "changesetLabel": "people",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.733",
+  "changesetOperationStart": "2023-04-02T13:36:11.033",
   "changesetSql": "create table vendors (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.739Z",
+  "timestamp": "2023-04-02T18:36:11.037Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -658,20 +658,20 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-vendors",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the vendors started",
   "changesetLabel": "people",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.733",
+  "changesetOperationStart": "2023-04-02T13:36:11.033",
   "changesetSql": "create table vendors (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.738",
+  "changesetOperationStop": "2023-04-02T13:36:11.037",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.741Z",
+  "timestamp": "2023-04-02T18:36:11.040Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -682,21 +682,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-vendors",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the vendors started",
   "changesetLabel": "people",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:34.733",
+  "changesetOperationStart": "2023-04-02T13:36:11.033",
   "changesetSql": "create table vendors (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.738",
+  "changesetOperationStop": "2023-04-02T13:36:11.037",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.747Z",
+  "timestamp": "2023-04-02T18:36:11.047Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -707,42 +707,42 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-fed-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.745",
+  "changesetOperationStart": "2023-04-02T13:36:11.044",
   "changesetSql": "create table fed_taxes (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.749Z",
+  "timestamp": "2023-04-02T18:36:11.048Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
-  "message": "ChangeSet changelog.mdc-cafe.sql::create-fed-taxes::mmc ran successfully in 3ms",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-fed-taxes::mmc ran successfully in 5ms",
   "liquibaseOperation": "updateToTag",
   "liquibaseCommandName": "updateToTag",
   "commandLabelFilter": "",
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-fed-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.745",
+  "changesetOperationStart": "2023-04-02T13:36:11.044",
   "changesetSql": "create table fed_taxes (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.748",
+  "changesetOperationStop": "2023-04-02T13:36:11.048",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.751Z",
+  "timestamp": "2023-04-02T18:36:11.050Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -753,21 +753,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-fed-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.745",
+  "changesetOperationStart": "2023-04-02T13:36:11.044",
   "changesetSql": "create table fed_taxes (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.748",
+  "changesetOperationStop": "2023-04-02T13:36:11.048",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.757Z",
+  "timestamp": "2023-04-02T18:36:11.057Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -778,18 +778,18 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-state-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.754",
+  "changesetOperationStart": "2023-04-02T13:36:11.054",
   "changesetSql": "create table state_taxes (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.759Z",
+  "timestamp": "2023-04-02T18:36:11.059Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -800,20 +800,20 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-state-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.754",
+  "changesetOperationStart": "2023-04-02T13:36:11.054",
   "changesetSql": "create table state_taxes (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.758",
+  "changesetOperationStop": "2023-04-02T13:36:11.058",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.761Z",
+  "timestamp": "2023-04-02T18:36:11.062Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -824,21 +824,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-state-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.754",
+  "changesetOperationStart": "2023-04-02T13:36:11.054",
   "changesetSql": "create table state_taxes (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.758",
+  "changesetOperationStop": "2023-04-02T13:36:11.058",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.767Z",
+  "timestamp": "2023-04-02T18:36:11.067Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -849,18 +849,18 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-bonuses",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the bonuses started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.764",
+  "changesetOperationStart": "2023-04-02T13:36:11.065",
   "changesetSql": "create table bonuses (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.768Z",
+  "timestamp": "2023-04-02T18:36:11.069Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -871,20 +871,20 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-bonuses",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the bonuses started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.764",
+  "changesetOperationStart": "2023-04-02T13:36:11.065",
   "changesetSql": "create table bonuses (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.768",
+  "changesetOperationStop": "2023-04-02T13:36:11.068",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.771Z",
+  "timestamp": "2023-04-02T18:36:11.071Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -895,21 +895,21 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "changesetId": "create-bonuses",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
   "changesetComment": "get the bonuses started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
-  "changesetOperationStart": "2023-03-29T14:29:34.764",
+  "changesetOperationStart": "2023-04-02T13:36:11.065",
   "changesetSql": "create table bonuses (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:34.768",
+  "changesetOperationStop": "2023-04-02T13:36:11.068",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.774Z",
+  "timestamp": "2023-04-02T18:36:11.074Z",
   "level": "INFO",
   "class": "liquibase",
   "thread": "1",
@@ -920,12 +920,12 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "deploymentOutcome": "success",
   "deploymentOutcomeCount": "10"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.778Z",
+  "timestamp": "2023-04-02T18:36:11.077Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -936,12 +936,12 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611",
+  "deploymentId": "0460570914",
   "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:34.779Z",
+  "timestamp": "2023-04-02T18:36:11.078Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -952,5 +952,5 @@
   "commandContextFilter": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
   "changelogFile": "changelog.mdc-cafe.sql",
-  "deploymentId": "0118174611"
+  "deploymentId": "0460570914"
 }

@@ -1,15 +1,15 @@
 {
-  "timestamp": "2023-03-29T19:29:06.494Z",
+  "timestamp": "2023-04-02T18:35:35.361Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.595Z",
+  "timestamp": "2023-04-02T18:35:35.463Z",
   "level": "INFO",
   "class": "liquibase.license",
   "thread": "1",
@@ -17,7 +17,7 @@
   "liquibaseOperation": "changelogSync"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.745Z",
+  "timestamp": "2023-04-02T18:35:35.595Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -26,7 +26,7 @@
   "liquibaseCommandName": "changelogSync"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.841Z",
+  "timestamp": "2023-04-02T18:35:35.718Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -37,7 +37,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.846Z",
+  "timestamp": "2023-04-02T18:35:35.723Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -48,7 +48,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.852Z",
+  "timestamp": "2023-04-02T18:35:35.729Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -59,7 +59,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.859Z",
+  "timestamp": "2023-04-02T18:35:35.735Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -70,18 +70,18 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.865Z",
+  "timestamp": "2023-04-02T18:35:35.741Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
   "message": "Changelog query completed.",
   "liquibaseOperation": "changelogSync",
   "liquibaseCommandName": "changelogSync",
-  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.867Z",
+  "timestamp": "2023-04-02T18:35:35.743Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -90,7 +90,7 @@
   "liquibaseCommandName": "changelogSync"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.904Z",
+  "timestamp": "2023-04-02T18:35:35.784Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -100,7 +100,7 @@
   "changelogFile": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.910Z",
+  "timestamp": "2023-04-02T18:35:35.790Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -112,7 +112,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.913Z",
+  "timestamp": "2023-04-02T18:35:35.793Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -122,7 +122,7 @@
   "changelogFile": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.916Z",
+  "timestamp": "2023-04-02T18:35:35.796Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -134,7 +134,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.919Z",
+  "timestamp": "2023-04-02T18:35:35.799Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -146,7 +146,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.939Z",
+  "timestamp": "2023-04-02T18:35:35.818Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -158,7 +158,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.943Z",
+  "timestamp": "2023-04-02T18:35:35.822Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -169,7 +169,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.949Z",
+  "timestamp": "2023-04-02T18:35:35.826Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -180,7 +180,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.952Z",
+  "timestamp": "2023-04-02T18:35:35.828Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -191,7 +191,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.957Z",
+  "timestamp": "2023-04-02T18:35:35.831Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -202,7 +202,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.961Z",
+  "timestamp": "2023-04-02T18:35:35.834Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -213,7 +213,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.966Z",
+  "timestamp": "2023-04-02T18:35:35.837Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -224,7 +224,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.970Z",
+  "timestamp": "2023-04-02T18:35:35.840Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -235,7 +235,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.975Z",
+  "timestamp": "2023-04-02T18:35:35.845Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -246,7 +246,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.980Z",
+  "timestamp": "2023-04-02T18:35:35.848Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -257,7 +257,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.984Z",
+  "timestamp": "2023-04-02T18:35:35.851Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -268,7 +268,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.988Z",
+  "timestamp": "2023-04-02T18:35:35.855Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -280,7 +280,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:06.990Z",
+  "timestamp": "2023-04-02T18:35:35.856Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -288,31 +288,4 @@
   "liquibaseOperation": "changelogSync",
   "liquibaseCommandName": "changelogSync",
   "changelogFile": "changelog.mdc-cafe.sql"
-}
-{
-  "timestamp": "2023-03-29T21:01:42.325Z",
-  "level": "INFO",
-  "class": "liquibase.integration",
-  "thread": "1",
-  "message": "Starting command execution.",
-  "liquibaseVersion": "4.20.0",
-  "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.lan"
-}
-{
-  "timestamp": "2023-03-29T21:01:42.422Z",
-  "level": "INFO",
-  "class": "liquibase.license",
-  "thread": "1",
-  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
-  "liquibaseOperation": "changelogSync"
-}
-{
-  "timestamp": "2023-03-29T21:01:43.754Z",
-  "level": "SEVERE",
-  "class": "liquibase.integration",
-  "thread": "1",
-  "message": "Connection could not be created to jdbc:h2:tcp://localhost:9090/mem:dev with driver org.h2.Driver. Make sure your H2 database is active and accessible by opening a new terminal window, run \"liquibase init start-h2\", and then return to this terminal window to run commands.  Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]",
-  "exception": "\nliquibase.exception.CommandExecutionException: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: Connection could not be created to jdbc:h2:tcp://localhost:9090/mem:dev with driver org.h2.Driver. Make sure your H2 database is active and accessible by opening a new terminal window, run \"liquibase init start-h2\", and then return to this terminal window to run commands.  Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]\n\tat liquibase.command.CommandScope.execute(CommandScope.java:209)\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2041)\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2453)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2415)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2417)\n\tat picocli.CommandLine.execute(CommandLine.java:2170)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$null$2(LiquibaseCommandLine.java:367)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(LiquibaseCommandLine.java:332)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:330)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:91)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)\nCaused by: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: Connection could not be created to jdbc:h2:tcp://localhost:9090/mem:dev with driver org.h2.Driver. Make sure your H2 database is active and accessible by opening a new terminal window, run \"liquibase init start-h2\", and then return to this terminal window to run commands.  Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]\n\tat liquibase.integration.commandline.CommandLineUtils.createDatabaseObject(CommandLineUtils.java:142)\n\tat liquibase.integration.commandline.Main.doMigration(Main.java:1501)\n\tat liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:415)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.integration.commandline.Main$1.run(Main.java:414)\n\tat liquibase.integration.commandline.Main$1.run(Main.java:231)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.Main.run(Main.java:231)\n\tat liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)\n\tat liquibase.command.CommandScope.execute(CommandScope.java:195)\n\t... 23 more\nCaused by: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: Connection could not be created to jdbc:h2:tcp://localhost:9090/mem:dev with driver org.h2.Driver. Make sure your H2 database is active and accessible by opening a new terminal window, run \"liquibase init start-h2\", and then return to this terminal window to run commands.  Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]\n\tat liquibase.database.DatabaseFactory.openConnection(DatabaseFactory.java:221)\n\tat liquibase.database.DatabaseFactory.openConnection(DatabaseFactory.java:179)\n\tat liquibase.database.DatabaseFactory.openDatabase(DatabaseFactory.java:144)\n\tat liquibase.integration.commandline.CommandLineUtils.createDatabaseObject(CommandLineUtils.java:96)\n\t... 36 more\nCaused by: liquibase.exception.DatabaseException: liquibase.exception.DatabaseException: Connection could not be created to jdbc:h2:tcp://localhost:9090/mem:dev with driver org.h2.Driver. Make sure your H2 database is active and accessible by opening a new terminal window, run \"liquibase init start-h2\", and then return to this terminal window to run commands.  Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]\n\tat liquibase.database.ConnectionServiceFactory.create(ConnectionServiceFactory.java:35)\n\tat liquibase.database.DatabaseFactory.openConnection(DatabaseFactory.java:218)\n\t... 39 more\nCaused by: liquibase.exception.DatabaseException: Connection could not be created to jdbc:h2:tcp://localhost:9090/mem:dev with driver org.h2.Driver. Make sure your H2 database is active and accessible by opening a new terminal window, run \"liquibase init start-h2\", and then return to this terminal window to run commands.  Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]\n\tat liquibase.database.jvm.JdbcConnection.open(JdbcConnection.java:91)\n\tat com.datical.liquibase.ext.database.jvm.ProJdbcConnection.open(Unknown Source)\n\tat liquibase.database.ConnectionServiceFactory.create(ConnectionServiceFactory.java:32)\n\t... 40 more\nCaused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: Connection is broken: \"java.net.ConnectException: Connection refused: localhost:9090\" [90067-214]\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:678)\n\tat org.h2.message.DbException.getJdbcSQLException(DbException.java:477)\n\tat org.h2.message.DbException.get(DbException.java:212)\n\tat org.h2.engine.SessionRemote.connectServer(SessionRemote.java:437)\n\tat org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:325)\n\tat org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)\n\tat org.h2.Driver.connect(Driver.java:59)\n\tat liquibase.database.jvm.JdbcConnection.open(JdbcConnection.java:83)\n\t... 42 more\nCaused by: java.net.ConnectException: Connection refused\n\tat java.base/sun.nio.ch.Net.pollConnect(Native Method)\n\tat java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)\n\tat java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)\n\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)\n\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)\n\tat java.base/java.net.Socket.connect(Socket.java:585)\n\tat org.h2.util.NetUtils.createSocket(NetUtils.java:135)\n\tat org.h2.util.NetUtils.createSocket(NetUtils.java:99)\n\tat org.h2.engine.SessionRemote.initTransfer(SessionRemote.java:130)\n\tat org.h2.engine.SessionRemote.connectServer(SessionRemote.java:433)\n\t... 46 more\n",
-  "liquibaseOperation": "changelogSync"
 }

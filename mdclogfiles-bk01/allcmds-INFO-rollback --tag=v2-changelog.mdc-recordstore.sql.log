@@ -1,0 +1,211 @@
+{
+  "timestamp": "2023-03-31T17:01:52.960Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.165Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollback"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.403Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.604Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.612Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.648Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.1.160)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.653Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.764Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.773Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.781Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.789Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.841Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "rollback command encountered an exception.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "deploymentOutcome": "fail"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.849Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.854Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql"
+}
+{
+  "timestamp": "2023-03-31T17:01:53.866Z",
+  "level": "SEVERE",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Liquibase does not support automatic rollback generation for raw sql changes (did you mean to specify keyword \"empty\" to ignore rolling back this change?)",
+  "exception": "\nliquibase.exception.CommandExecutionException: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.RollbackFailedException: Liquibase does not support automatic rollback generation for raw sql changes (did you mean to specify keyword \"empty\" to ignore rolling back this change?)\n\tat liquibase.command.CommandScope.execute(CommandScope.java:209)\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:55)\n\tat liquibase.integration.commandline.CommandRunner.call(CommandRunner.java:24)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:2041)\n\tat picocli.CommandLine.access$1500(CommandLine.java:148)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2461)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2453)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2415)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2273)\n\tat picocli.CommandLine$RunLast.execute(CommandLine.java:2417)\n\tat picocli.CommandLine.execute(CommandLine.java:2170)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$null$2(LiquibaseCommandLine.java:367)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.lambda$execute$3(LiquibaseCommandLine.java:332)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.execute(LiquibaseCommandLine.java:330)\n\tat liquibase.integration.commandline.LiquibaseCommandLine.main(LiquibaseCommandLine.java:91)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:567)\n\tat liquibase.integration.commandline.LiquibaseLauncher.main(LiquibaseLauncher.java:107)\nCaused by: liquibase.exception.LiquibaseException: liquibase.exception.RollbackFailedException: liquibase.exception.RollbackFailedException: Liquibase does not support automatic rollback generation for raw sql changes (did you mean to specify keyword \"empty\" to ignore rolling back this change?)\n\tat liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:136)\n\tat liquibase.Liquibase.lambda$doRollback$6(Liquibase.java:1265)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Scope.child(Scope.java:256)\n\tat liquibase.Liquibase.doRollback(Liquibase.java:1264)\n\tat liquibase.Liquibase.access$900(Liquibase.java:69)\n\tat liquibase.Liquibase$10.run(Liquibase.java:1530)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Liquibase.runInScope(Liquibase.java:2639)\n\tat liquibase.Liquibase.rollback(Liquibase.java:1461)\n\tat liquibase.integration.commandline.Main.doMigration(Main.java:1834)\n\tat liquibase.integration.commandline.Main$1.lambda$run$0(Main.java:415)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.integration.commandline.Main$1.run(Main.java:414)\n\tat liquibase.integration.commandline.Main$1.run(Main.java:231)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:172)\n\tat liquibase.integration.commandline.Main.run(Main.java:231)\n\tat liquibase.command.AbstractCliWrapperCommandStep.run(AbstractCliWrapperCommandStep.java:32)\n\tat liquibase.command.CommandScope.execute(CommandScope.java:195)\n\t... 23 more\nCaused by: liquibase.exception.RollbackFailedException: liquibase.exception.RollbackFailedException: Liquibase does not support automatic rollback generation for raw sql changes (did you mean to specify keyword \"empty\" to ignore rolling back this change?)\n\tat liquibase.changelog.ChangeSet.rollback(ChangeSet.java:888)\n\tat liquibase.changelog.visitor.RollbackVisitor.visit(RollbackVisitor.java:60)\n\tat liquibase.changelog.ChangeLogIterator$2.lambda$null$0(ChangeLogIterator.java:124)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.changelog.ChangeLogIterator$2.lambda$run$1(ChangeLogIterator.java:124)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Scope.child(Scope.java:256)\n\tat liquibase.changelog.ChangeLogIterator$2.run(ChangeLogIterator.java:105)\n\tat liquibase.Scope.lambda$child$0(Scope.java:187)\n\tat liquibase.Scope.child(Scope.java:196)\n\tat liquibase.Scope.child(Scope.java:186)\n\tat liquibase.Scope.child(Scope.java:165)\n\tat liquibase.Scope.child(Scope.java:256)\n\tat liquibase.Scope.child(Scope.java:260)\n\tat liquibase.changelog.ChangeLogIterator.run(ChangeLogIterator.java:75)\n\t... 51 more\nCaused by: liquibase.exception.RollbackFailedException: Liquibase does not support automatic rollback generation for raw sql changes (did you mean to specify keyword \"empty\" to ignore rolling back this change?)\n\tat liquibase.changelog.ChangeSet.rollback(ChangeSet.java:867)\n\t... 71 more\n"
+}

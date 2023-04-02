@@ -1,22 +1,22 @@
 {
-  "timestamp": "2023-03-29T19:29:23.607Z",
+  "timestamp": "2023-04-02T18:35:56.237Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:29:23.689Z",
+  "timestamp": "2023-04-02T18:35:56.325Z",
   "level": "WARNING",
   "class": "liquibase.configuration",
   "thread": "1",
   "message": "Potentially ignored key(s) in file exists at path liquibase.properties\n - 'changeLogFile'"
 }
 {
-  "timestamp": "2023-03-29T19:29:23.830Z",
+  "timestamp": "2023-04-02T18:35:56.475Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -24,7 +24,7 @@
   "liquibaseOperation": "updateOneChangeset"
 }
 {
-  "timestamp": "2023-03-29T19:29:23.994Z",
+  "timestamp": "2023-04-02T18:35:56.625Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -36,7 +36,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:23.999Z",
+  "timestamp": "2023-04-02T18:35:56.630Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -48,7 +48,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.006Z",
+  "timestamp": "2023-04-02T18:35:56.637Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -60,7 +60,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.011Z",
+  "timestamp": "2023-04-02T18:35:56.642Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -72,7 +72,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.015Z",
+  "timestamp": "2023-04-02T18:35:56.648Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -80,11 +80,11 @@
   "liquibaseOperation": "updateOneChangeset",
   "commandLabelFilter": "",
   "commandContextFilter": "",
-  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.017Z",
+  "timestamp": "2023-04-02T18:35:56.649Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -94,7 +94,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2023-03-29T19:29:24.028Z",
+  "timestamp": "2023-04-02T18:35:56.660Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -104,7 +104,7 @@
   "commandContextFilter": ""
 }
 {
-  "timestamp": "2023-03-29T19:29:24.033Z",
+  "timestamp": "2023-04-02T18:35:56.666Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -116,7 +116,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.040Z",
+  "timestamp": "2023-04-02T18:35:56.672Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -129,7 +129,7 @@
   "changesetFilepath": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.043Z",
+  "timestamp": "2023-04-02T18:35:56.676Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -144,7 +144,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.056Z",
+  "timestamp": "2023-04-02T18:35:56.687Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -158,15 +158,15 @@
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetOperationStart": "2023-04-02T13:35:56.678",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.058Z",
+  "timestamp": "2023-04-02T18:35:56.689Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
-  "message": "ChangeSet changelog.mdc-cafe.sql::create-drinks::mmc ran successfully in 11ms",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-drinks::mmc ran successfully in 10ms",
   "liquibaseOperation": "updateOneChangeset",
   "commandLabelFilter": "",
   "commandContextFilter": "",
@@ -176,13 +176,13 @@
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetOperationStart": "2023-04-02T13:35:56.678",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:24.057",
+  "changesetOperationStop": "2023-04-02T13:35:56.688",
   "changesetOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.063Z",
+  "timestamp": "2023-04-02T18:35:56.693Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -196,15 +196,15 @@
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetOperationStart": "2023-04-02T13:35:56.678",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:24.057",
+  "changesetOperationStop": "2023-04-02T13:35:56.688",
   "changesetOutcome": "executed",
   "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM DATABASECHANGELOG;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.067Z",
+  "timestamp": "2023-04-02T18:35:56.697Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -218,14 +218,14 @@
   "changesetComment": "get the drinks started",
   "changesetLabel": "edible",
   "changesetContext": "one",
-  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetOperationStart": "2023-04-02T13:35:56.678",
   "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
-  "changesetOperationStop": "2023-03-29T14:29:24.057",
+  "changesetOperationStop": "2023-04-02T13:35:56.688",
   "changesetOutcome": "executed",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.076Z",
+  "timestamp": "2023-04-02T18:35:56.705Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -237,7 +237,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:24.077Z",
+  "timestamp": "2023-04-02T18:35:56.707Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",

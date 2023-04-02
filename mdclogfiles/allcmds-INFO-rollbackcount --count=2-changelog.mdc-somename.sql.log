@@ -1,15 +1,15 @@
 {
-  "timestamp": "2023-03-29T19:30:25.263Z",
+  "timestamp": "2023-04-02T18:37:06.637Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.403Z",
+  "timestamp": "2023-04-02T18:37:06.765Z",
   "level": "INFO",
   "class": "liquibase.license",
   "thread": "1",
@@ -17,7 +17,7 @@
   "liquibaseOperation": "rollbackCount"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.559Z",
+  "timestamp": "2023-04-02T18:37:06.911Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -26,7 +26,7 @@
   "liquibaseCommandName": "rollbackCount"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.658Z",
+  "timestamp": "2023-04-02T18:37:07.008Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -42,7 +42,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.664Z",
+  "timestamp": "2023-04-02T18:37:07.014Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -58,7 +58,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.692Z",
+  "timestamp": "2023-04-02T18:37:07.033Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -70,11 +70,11 @@
   "rollbackCount": "2",
   "rollbackScript": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
-  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.695Z",
+  "timestamp": "2023-04-02T18:37:07.035Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -88,7 +88,7 @@
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.800Z",
+  "timestamp": "2023-04-02T18:37:07.094Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -105,7 +105,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.806Z",
+  "timestamp": "2023-04-02T18:37:07.097Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -122,7 +122,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.812Z",
+  "timestamp": "2023-04-02T18:37:07.102Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -137,7 +137,7 @@
   "changelogFile": "changelog.mdc-somename.sql"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.818Z",
+  "timestamp": "2023-04-02T18:37:07.108Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -154,7 +154,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.866Z",
+  "timestamp": "2023-04-02T18:37:07.164Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -170,18 +170,18 @@
   "changesetId": "mdc-poc-03somename",
   "changesetAuthor": "mmc-somename",
   "changesetFilepath": "changelog.mdc-somename.sql",
-  "changesetOperationStart": "2023-03-29T14:30:25.844",
+  "changesetOperationStart": "2023-04-02T13:37:07.148",
   "changesetComment": "example comment",
   "changesetLabel": "example-label",
   "changesetContext": "example-context",
   "changesetSql": "ALTER TABLE someperson DROP COLUMN country;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:30:25.86",
+  "changesetOperationStop": "2023-04-02T13:37:07.159",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'mdc-poc-03somename' AND AUTHOR = 'mmc-somename' AND FILENAME = 'changelog.mdc-somename.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.880Z",
+  "timestamp": "2023-04-02T18:37:07.177Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -197,18 +197,18 @@
   "changesetId": "mdc-poc-02somename",
   "changesetAuthor": "mmc-somename",
   "changesetFilepath": "changelog.mdc-somename.sql",
-  "changesetOperationStart": "2023-03-29T14:30:25.873",
+  "changesetOperationStart": "2023-04-02T13:37:07.171",
   "changesetComment": "example comment",
   "changesetLabel": "example-label",
   "changesetContext": "example-context",
   "changesetSql": "DROP TABLE somecompany;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:30:25.877",
+  "changesetOperationStop": "2023-04-02T13:37:07.175",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'mdc-poc-02somename' AND AUTHOR = 'mmc-somename' AND FILENAME = 'changelog.mdc-somename.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.886Z",
+  "timestamp": "2023-04-02T18:37:07.182Z",
   "level": "INFO",
   "class": "liquibase",
   "thread": "1",
@@ -227,13 +227,13 @@
       {
         "author": "mmc-somename",
         "changesetId": "mdc-poc-03somename",
-        "deploymentId": "0118223695",
+        "deploymentId": "0460625088",
         "filepath": "changelog.mdc-somename.sql"
       },
       {
         "author": "mmc-somename",
         "changesetId": "mdc-poc-02somename",
-        "deploymentId": "0118223695",
+        "deploymentId": "0460625088",
         "filepath": "changelog.mdc-somename.sql"
       }
     ]
@@ -242,7 +242,7 @@
   "deploymentOutcome": "success"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.897Z",
+  "timestamp": "2023-04-02T18:37:07.192Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -261,13 +261,13 @@
       {
         "author": "mmc-somename",
         "changesetId": "mdc-poc-03somename",
-        "deploymentId": "0118223695",
+        "deploymentId": "0460625088",
         "filepath": "changelog.mdc-somename.sql"
       },
       {
         "author": "mmc-somename",
         "changesetId": "mdc-poc-02somename",
-        "deploymentId": "0118223695",
+        "deploymentId": "0460625088",
         "filepath": "changelog.mdc-somename.sql"
       }
     ]
@@ -277,7 +277,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:25.900Z",
+  "timestamp": "2023-04-02T18:37:07.194Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -296,13 +296,13 @@
       {
         "author": "mmc-somename",
         "changesetId": "mdc-poc-03somename",
-        "deploymentId": "0118223695",
+        "deploymentId": "0460625088",
         "filepath": "changelog.mdc-somename.sql"
       },
       {
         "author": "mmc-somename",
         "changesetId": "mdc-poc-02somename",
-        "deploymentId": "0118223695",
+        "deploymentId": "0460625088",
         "filepath": "changelog.mdc-somename.sql"
       }
     ]

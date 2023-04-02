@@ -1,0 +1,622 @@
+{
+  "timestamp": "2023-03-29T19:30:16.330Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.461Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollback"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.604Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.715Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.721Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.745Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.747Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.949Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.952Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.957Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-29T19:30:16.961Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:17.023Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetOperationStart": "2023-03-29T14:30:17.011",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 DROP COLUMN country;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T14:30:17.019",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'mdc-xml-03' AND AUTHOR = 'mmc-xml' AND FILENAME = 'changelog.mdc-04-errors.xml';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:17.036Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetOperationStart": "2023-03-29T14:30:17.031",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-29T14:30:17.033",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'tagDatabase-example' AND AUTHOR = 'liquibase-docs' AND FILENAME = 'changelog.mdc-04-errors.xml';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:17.041Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Rollback command completed successfully.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc-xml",
+        "changesetId": "mdc-xml-03",
+        "deploymentId": "0118214749",
+        "filepath": "changelog.mdc-04-errors.xml"
+      },
+      {
+        "author": "liquibase-docs",
+        "changesetId": "tagDatabase-example",
+        "deploymentId": "0118214749",
+        "filepath": "changelog.mdc-04-errors.xml"
+      }
+    ]
+    
+  },
+  "deploymentOutcome": "success"
+}
+{
+  "timestamp": "2023-03-29T19:30:17.051Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc-xml",
+        "changesetId": "mdc-xml-03",
+        "deploymentId": "0118214749",
+        "filepath": "changelog.mdc-04-errors.xml"
+      },
+      {
+        "author": "liquibase-docs",
+        "changesetId": "tagDatabase-example",
+        "deploymentId": "0118214749",
+        "filepath": "changelog.mdc-04-errors.xml"
+      }
+    ]
+    
+  },
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:30:17.054Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc-xml",
+        "changesetId": "mdc-xml-03",
+        "deploymentId": "0118214749",
+        "filepath": "changelog.mdc-04-errors.xml"
+      },
+      {
+        "author": "liquibase-docs",
+        "changesetId": "tagDatabase-example",
+        "deploymentId": "0118214749",
+        "filepath": "changelog.mdc-04-errors.xml"
+      }
+    ]
+    
+  }
+}
+{
+  "timestamp": "2023-03-31T17:01:42.232Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.350Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollback"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.497Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.594Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.600Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.620Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.1.160)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.622Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.819Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.823Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.829Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.834Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.897Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetId": "mdc-xml-03",
+  "changesetAuthor": "mmc-xml",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetOperationStart": "2023-03-31T12:01:42.884",
+  "changesetComment": "example-comment",
+  "changesetLabel": "simple",
+  "changesetContext": "example-context",
+  "changesetSql": "ALTER TABLE PUBLIC.person04 DROP COLUMN country;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-31T12:01:42.893",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'mdc-xml-03' AND AUTHOR = 'mmc-xml' AND FILENAME = 'changelog.mdc-04-errors.xml';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.908Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetId": "tagDatabase-example",
+  "changesetAuthor": "liquibase-docs",
+  "changesetFilepath": "changelog.mdc-04-errors.xml",
+  "changesetOperationStart": "2023-03-31T12:01:42.903",
+  "changesetComment": "",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-03-31T12:01:42.905",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'tagDatabase-example' AND AUTHOR = 'liquibase-docs' AND FILENAME = 'changelog.mdc-04-errors.xml';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.913Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Rollback command completed successfully.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc-xml",
+        "changesetId": "mdc-xml-03",
+        "deploymentId": "0282100312",
+        "filepath": "changelog.mdc-04-errors.xml"
+      },
+      {
+        "author": "liquibase-docs",
+        "changesetId": "tagDatabase-example",
+        "deploymentId": "0282100312",
+        "filepath": "changelog.mdc-04-errors.xml"
+      }
+    ]
+    
+  },
+  "deploymentOutcome": "success"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.922Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc-xml",
+        "changesetId": "mdc-xml-03",
+        "deploymentId": "0282100312",
+        "filepath": "changelog.mdc-04-errors.xml"
+      },
+      {
+        "author": "liquibase-docs",
+        "changesetId": "tagDatabase-example",
+        "deploymentId": "0282100312",
+        "filepath": "changelog.mdc-04-errors.xml"
+      }
+    ]
+    
+  },
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T17:01:42.924Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-04-errors.xml",
+  "changesetsRolledback": {
+    "changesetCount": 2,
+    "changesets": [
+      {
+        "author": "mmc-xml",
+        "changesetId": "mdc-xml-03",
+        "deploymentId": "0282100312",
+        "filepath": "changelog.mdc-04-errors.xml"
+      },
+      {
+        "author": "liquibase-docs",
+        "changesetId": "tagDatabase-example",
+        "deploymentId": "0282100312",
+        "filepath": "changelog.mdc-04-errors.xml"
+      }
+    ]
+    
+  }
+}

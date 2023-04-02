@@ -1,15 +1,15 @@
 {
-  "timestamp": "2023-03-29T19:30:21.030Z",
+  "timestamp": "2023-04-02T18:37:02.647Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.144Z",
+  "timestamp": "2023-04-02T18:37:02.766Z",
   "level": "INFO",
   "class": "liquibase.license",
   "thread": "1",
@@ -17,7 +17,7 @@
   "liquibaseOperation": "rollbackCount"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.293Z",
+  "timestamp": "2023-04-02T18:37:02.912Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -26,7 +26,7 @@
   "liquibaseCommandName": "rollbackCount"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.395Z",
+  "timestamp": "2023-04-02T18:37:03.008Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -42,7 +42,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.401Z",
+  "timestamp": "2023-04-02T18:37:03.013Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -58,7 +58,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.420Z",
+  "timestamp": "2023-04-02T18:37:03.033Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -70,11 +70,11 @@
   "rollbackCount": "2",
   "rollbackScript": "",
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
-  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.422Z",
+  "timestamp": "2023-04-02T18:37:03.035Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -88,7 +88,7 @@
   "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.505Z",
+  "timestamp": "2023-04-02T18:37:03.094Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -105,7 +105,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.510Z",
+  "timestamp": "2023-04-02T18:37:03.097Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -122,7 +122,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.516Z",
+  "timestamp": "2023-04-02T18:37:03.102Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -137,7 +137,7 @@
   "changelogFile": "changelog.mdc-cafe.sql"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.522Z",
+  "timestamp": "2023-04-02T18:37:03.106Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -154,7 +154,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.570Z",
+  "timestamp": "2023-04-02T18:37:03.145Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -170,18 +170,18 @@
   "changesetId": "create-bonuses",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:30:21.553",
+  "changesetOperationStart": "2023-04-02T13:37:03.129",
   "changesetComment": "get the bonuses started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
   "changesetSql": "DROP TABLE bonuses;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:30:21.566",
+  "changesetOperationStop": "2023-04-02T13:37:03.14",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-bonuses' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.581Z",
+  "timestamp": "2023-04-02T18:37:03.157Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -197,18 +197,18 @@
   "changesetId": "create-state-taxes",
   "changesetAuthor": "mmc",
   "changesetFilepath": "changelog.mdc-cafe.sql",
-  "changesetOperationStart": "2023-03-29T14:30:21.576",
+  "changesetOperationStart": "2023-04-02T13:37:03.152",
   "changesetComment": "get the taxes started",
   "changesetLabel": "fiscal",
   "changesetContext": "two",
   "changesetSql": "DROP TABLE state_taxes;",
   "changesetOutcome": "executed",
-  "changesetOperationStop": "2023-03-29T14:30:21.579",
+  "changesetOperationStop": "2023-04-02T13:37:03.155",
   "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = 'create-state-taxes' AND AUTHOR = 'mmc' AND FILENAME = 'changelog.mdc-cafe.sql';",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.589Z",
+  "timestamp": "2023-04-02T18:37:03.183Z",
   "level": "INFO",
   "class": "liquibase",
   "thread": "1",
@@ -227,13 +227,13 @@
       {
         "author": "mmc",
         "changesetId": "create-bonuses",
-        "deploymentId": "0118219361",
+        "deploymentId": "0460621050",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-state-taxes",
-        "deploymentId": "0118219361",
+        "deploymentId": "0460621050",
         "filepath": "changelog.mdc-cafe.sql"
       }
     ]
@@ -242,7 +242,7 @@
   "deploymentOutcome": "success"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.598Z",
+  "timestamp": "2023-04-02T18:37:03.193Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -261,13 +261,13 @@
       {
         "author": "mmc",
         "changesetId": "create-bonuses",
-        "deploymentId": "0118219361",
+        "deploymentId": "0460621050",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-state-taxes",
-        "deploymentId": "0118219361",
+        "deploymentId": "0460621050",
         "filepath": "changelog.mdc-cafe.sql"
       }
     ]
@@ -277,7 +277,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:30:21.600Z",
+  "timestamp": "2023-04-02T18:37:03.196Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -296,13 +296,13 @@
       {
         "author": "mmc",
         "changesetId": "create-bonuses",
-        "deploymentId": "0118219361",
+        "deploymentId": "0460621050",
         "filepath": "changelog.mdc-cafe.sql"
       },
       {
         "author": "mmc",
         "changesetId": "create-state-taxes",
-        "deploymentId": "0118219361",
+        "deploymentId": "0460621050",
         "filepath": "changelog.mdc-cafe.sql"
       }
     ]

@@ -1,0 +1,259 @@
+{
+  "timestamp": "2023-04-02T18:35:42.904Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.lan"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.007Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "changelogSync"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.144Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.250Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.255Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.271Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.272Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.323Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.326Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.331Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.335Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.355Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM PUBLIC.DATABASECHANGELOG;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.359Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.364Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.368Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.373Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.376Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.380Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.383Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.387Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.391Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.394Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.400Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:35:43.401Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "changelogSync",
+  "liquibaseCommandName": "changelogSync",
+  "changelogFile": "changelog.mdc-recordstore.sql"
+}

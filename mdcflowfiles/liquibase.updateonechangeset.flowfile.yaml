@@ -38,6 +38,36 @@ stages:
   ##############################################################
 
 
+  ## A stage of actions. 
+  MakeLogFile05:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "recordstore"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      
+      
+    actions:
+
+      #
+      # Run the update
+      #
+      - type: shell
+        command: liquibase --loglevel=${THISLOGLEVEL} ${THISCOMMAND} --changeset-author=chatGPT --changeset-id=4 --changeset-path=changelog.mdc-recordstore.sql --log-file="${THISLOGFILE}" --force
+          
+  ##############################################################    
+  
+  
+
+
+
+
+
+
+
+
+
 
 ## The endStage ALWAYS RUNS. 
 ## So put actions here which you desire to perform whether previous stages' actions succeed or fail.

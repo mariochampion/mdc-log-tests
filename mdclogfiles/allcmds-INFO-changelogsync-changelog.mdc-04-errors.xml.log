@@ -1,15 +1,15 @@
 {
-  "timestamp": "2023-03-29T19:29:12.120Z",
+  "timestamp": "2023-04-02T18:35:40.923Z",
   "level": "INFO",
   "class": "liquibase.integration",
   "thread": "1",
   "message": "Starting command execution.",
   "liquibaseVersion": "4.20.0",
   "liquibaseSystemUser": "mariochampion",
-  "liquibaseSystemName": "mmc-mbp.local"
+  "liquibaseSystemName": "mmc-mbp.lan"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.222Z",
+  "timestamp": "2023-04-02T18:35:41.026Z",
   "level": "INFO",
   "class": "liquibase.license",
   "thread": "1",
@@ -17,7 +17,7 @@
   "liquibaseOperation": "changelogSync"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.357Z",
+  "timestamp": "2023-04-02T18:35:41.158Z",
   "level": "INFO",
   "class": "liquibase.database",
   "thread": "1",
@@ -26,7 +26,7 @@
   "liquibaseCommandName": "changelogSync"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.456Z",
+  "timestamp": "2023-04-02T18:35:41.264Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -37,7 +37,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.461Z",
+  "timestamp": "2023-04-02T18:35:41.268Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -48,18 +48,18 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.478Z",
+  "timestamp": "2023-04-02T18:35:41.286Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
   "message": "Changelog query completed.",
   "liquibaseOperation": "changelogSync",
   "liquibaseCommandName": "changelogSync",
-  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.480Z",
+  "timestamp": "2023-04-02T18:35:41.288Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",
@@ -68,7 +68,7 @@
   "liquibaseCommandName": "changelogSync"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.659Z",
+  "timestamp": "2023-04-02T18:35:41.462Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -80,7 +80,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.661Z",
+  "timestamp": "2023-04-02T18:35:41.464Z",
   "level": "INFO",
   "class": "liquibase.changelog",
   "thread": "1",
@@ -90,7 +90,7 @@
   "changelogFile": "changelog.mdc-04-errors.xml"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.666Z",
+  "timestamp": "2023-04-02T18:35:41.468Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -102,7 +102,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.670Z",
+  "timestamp": "2023-04-02T18:35:41.472Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -114,7 +114,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.730Z",
+  "timestamp": "2023-04-02T18:35:41.525Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -126,7 +126,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.741Z",
+  "timestamp": "2023-04-02T18:35:41.536Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -137,7 +137,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.746Z",
+  "timestamp": "2023-04-02T18:35:41.539Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -148,7 +148,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.753Z",
+  "timestamp": "2023-04-02T18:35:41.545Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -159,7 +159,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.760Z",
+  "timestamp": "2023-04-02T18:35:41.550Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -170,7 +170,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.765Z",
+  "timestamp": "2023-04-02T18:35:41.554Z",
   "level": "INFO",
   "class": "liquibase.executor",
   "thread": "1",
@@ -182,7 +182,7 @@
   "databaseChangelogTableOutcome": "executed"
 }
 {
-  "timestamp": "2023-03-29T19:29:12.766Z",
+  "timestamp": "2023-04-02T18:35:41.555Z",
   "level": "INFO",
   "class": "liquibase.lockservice",
   "thread": "1",

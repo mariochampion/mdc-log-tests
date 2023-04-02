@@ -1,0 +1,496 @@
+{
+  "timestamp": "2023-03-29T19:29:23.607Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-29T19:29:23.689Z",
+  "level": "WARNING",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Potentially ignored key(s) in file exists at path liquibase.properties\n - 'changeLogFile'"
+}
+{
+  "timestamp": "2023-03-29T19:29:23.830Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "updateOneChangeset"
+}
+{
+  "timestamp": "2023-03-29T19:29:23.994Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "CREATE TABLE DATABASECHANGELOGLOCK (ID INT NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP, LOCKEDBY VARCHAR(255), CONSTRAINT PK_DATABASECHANGELOGLOCK PRIMARY KEY (ID));",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:23.999Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.006Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "DELETE FROM DATABASECHANGELOGLOCK;\nINSERT INTO DATABASECHANGELOGLOCK (ID, LOCKED) VALUES (1, FALSE);",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.011Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT LOCKED FROM DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.015Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.12.47)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.017Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T19:29:24.028Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Creating database history table with name: DATABASECHANGELOG",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-29T19:29:24.033Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "CREATE TABLE DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED TIMESTAMP NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35), DESCRIPTION VARCHAR(255), COMMENTS VARCHAR(255), TAG VARCHAR(255), LIQUIBASE VARCHAR(20), CONTEXTS VARCHAR(255), LABELS VARCHAR(255), DEPLOYMENT_ID VARCHAR(10));",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.040Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from DATABASECHANGELOG",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.043Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT * FROM DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.056Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Custom SQL executed",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.058Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-drinks::mmc ran successfully in 11ms",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
+  "changesetOperationStop": "2023-03-29T14:29:24.057",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.063Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
+  "changesetOperationStop": "2023-03-29T14:29:24.057",
+  "changesetOutcome": "executed",
+  "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM DATABASECHANGELOG;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.067Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-29T14:29:24.047",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
+  "changesetOperationStop": "2023-03-29T14:29:24.057",
+  "changesetOutcome": "executed",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.076Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-29T19:29:24.077Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-31T16:44:17.901Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.local"
+}
+{
+  "timestamp": "2023-03-31T16:44:17.971Z",
+  "level": "WARNING",
+  "class": "liquibase.configuration",
+  "thread": "1",
+  "message": "Potentially ignored key(s) in file exists at path liquibase.properties\n - 'changeLogFile'"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.107Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "updateOneChangeset"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.259Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "CREATE TABLE DATABASECHANGELOGLOCK (ID INT NOT NULL, LOCKED BOOLEAN NOT NULL, LOCKGRANTED TIMESTAMP, LOCKEDBY VARCHAR(255), CONSTRAINT PK_DATABASECHANGELOGLOCK PRIMARY KEY (ID));",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.263Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.270Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "DELETE FROM DATABASECHANGELOGLOCK;\nINSERT INTO DATABASECHANGELOGLOCK (ID, LOCKED) VALUES (1, FALSE);",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.274Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "SELECT LOCKED FROM DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.278Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.local (192.168.1.160)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.280Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-31T16:44:18.290Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Creating database history table with name: DATABASECHANGELOG",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}
+{
+  "timestamp": "2023-03-31T16:44:18.295Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "CREATE TABLE DATABASECHANGELOG (ID VARCHAR(255) NOT NULL, AUTHOR VARCHAR(255) NOT NULL, FILENAME VARCHAR(255) NOT NULL, DATEEXECUTED TIMESTAMP NOT NULL, ORDEREXECUTED INT NOT NULL, EXECTYPE VARCHAR(10) NOT NULL, MD5SUM VARCHAR(35), DESCRIPTION VARCHAR(255), COMMENTS VARCHAR(255), TAG VARCHAR(255), LIQUIBASE VARCHAR(20), CONTEXTS VARCHAR(255), LABELS VARCHAR(255), DEPLOYMENT_ID VARCHAR(10));",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.300Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from DATABASECHANGELOG",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.303Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "databaseChangelogSQL": "SELECT * FROM DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.313Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Custom SQL executed",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-31T11:44:18.306",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.315Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "ChangeSet changelog.mdc-cafe.sql::create-drinks::mmc ran successfully in 9ms",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-31T11:44:18.306",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
+  "changesetOperationStop": "2023-03-31T11:44:18.314",
+  "changesetOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.319Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-31T11:44:18.306",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
+  "changesetOperationStop": "2023-03-31T11:44:18.314",
+  "changesetOutcome": "executed",
+  "databaseChangelogSQL": "SELECT MAX(ORDEREXECUTED) FROM DATABASECHANGELOG;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.322Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "changesetId": "create-drinks",
+  "changesetAuthor": "mmc",
+  "changesetFilepath": "changelog.mdc-cafe.sql",
+  "changesetComment": "get the drinks started",
+  "changesetLabel": "edible",
+  "changesetContext": "one",
+  "changesetOperationStart": "2023-03-31T11:44:18.306",
+  "changesetSql": "create table drinks (\n    id int primary key,\n    cheese varchar(255) not null,\n    inches varchar(255),\n    topping varchar(255),\n    rainbows varchar(30)\n);",
+  "changesetOperationStop": "2023-03-31T11:44:18.314",
+  "changesetOutcome": "executed",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.329Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "databaseChangelogSQL": "UPDATE DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-03-31T16:44:18.330Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "updateOneChangeset",
+  "commandLabelFilter": "",
+  "commandContextFilter": ""
+}

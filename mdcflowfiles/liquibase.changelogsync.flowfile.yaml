@@ -100,6 +100,32 @@ stages:
         command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"
           
   ##############################################################  
+  
+  
+  
+  ## A stage of actions. 
+  MakeLogFile05:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "recordstore"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      
+      
+    actions:
+
+      #
+      # Run the update
+      #
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"
+          
+  ##############################################################    
+  
+  
+  
+  
 
 
 ## The endStage ALWAYS RUNS. 

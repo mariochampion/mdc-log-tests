@@ -34,7 +34,7 @@ stages:
       # Run the update then rollbackcount
       #
       - type: shell
-        command: liquibase updatecount --count=1 --changelogfile="${CHANGELOGFILE}"
+        command: liquibase updatecount --count=4 --changelogfile="${CHANGELOGFILE}"
       - type: shell
         command: liquibase tag --tag="${THISTAG}"
       - type: shell
@@ -128,14 +128,41 @@ stages:
           
   ##############################################################  
 
+   ## A stage of actions. 
+  MakeLogFile05:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "recordstore"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase updatecount --count=3 --changelogfile="${CHANGELOGFILE}"
+      - type: shell
+        command: liquibase tag --tag="${THISTAG}"
+      - type: shell
+        command: liquibase update --changelogfile="${CHANGELOGFILE}"        
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"     
+
+          
+  ##############################################################  
+
+
+
+
+
 
 ## The endStage ALWAYS RUNS. 
 ## So put actions here which you desire to perform whether previous stages' actions succeed or fail.
 ## If you do not want any actions to ALWAYS RUN, simply delete the endStage from your flow file.
-
-
-
-
 
 
 endStage:

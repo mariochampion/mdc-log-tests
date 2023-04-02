@@ -26,7 +26,7 @@ stages:
       CHANGELOGEXT: "sql"
       CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
       THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
-      CMDARGS: "--changeset-author=mmc --changeset-id=create-drinks --changeset-path=changelog.mdc-cafe.sql  --force"
+      CMDARGS: "--changeset-author=mmc --changeset-id=create-drinks --changeset-path=${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}  --force"
 
       
     actions:
@@ -41,6 +41,33 @@ stages:
         command: liquibase --loglevel="${THISLOGLEVEL}" rollbackonechangeset ${CMDARGS} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"        
           
   ##############################################################
+  
+  
+  
+  
+  ## A stage of actions. 
+  MakeLogFile05:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      CHANGELOGEXTRA: "recordstore"
+      CHANGELOGEXT: "sql"
+      CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
+      CMDARGS: "--changeset-author=chatGPT --changeset-id=4 --changeset-path=${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}  --force"
+
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+
+      - type: shell
+        command: liquibase update --changelogfile="${CHANGELOGFILE}"        
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" rollbackonechangeset ${CMDARGS} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"        
+          
+  ##############################################################  
 
 
   ## A stage of actions. 

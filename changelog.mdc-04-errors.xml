@@ -23,7 +23,7 @@
     </changeSet>
 
     <changeSet author="liquibase-docs" id="tagDatabase-example">
-	    <tagDatabase tag="newtables"/>
+	    <tagDatabase tag="r01"/>
 	</changeSet>
 
     <changeSet id="mdc-xml-02" author="mmc-xml" labels="has-error" context="example-contexts" failOnError="false">

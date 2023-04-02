@@ -1,0 +1,626 @@
+{
+  "timestamp": "2023-04-02T18:36:58.341Z",
+  "level": "INFO",
+  "class": "liquibase.integration",
+  "thread": "1",
+  "message": "Starting command execution.",
+  "liquibaseVersion": "4.20.0",
+  "liquibaseSystemUser": "mariochampion",
+  "liquibaseSystemName": "mmc-mbp.lan"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.461Z",
+  "level": "INFO",
+  "class": "liquibase.license",
+  "thread": "1",
+  "message": "Successfully installed license from Base64 string starting with 'ABwwGgQU6h' (property liquibaseProLicenseKey).\n",
+  "liquibaseOperation": "rollback"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.607Z",
+  "level": "INFO",
+  "class": "liquibase.database",
+  "thread": "1",
+  "message": "Set default schema name to PUBLIC",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.705Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.710Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "SELECT LOCKED FROM PUBLIC.DATABASECHANGELOGLOCK WHERE ID=1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.729Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = TRUE, LOCKEDBY = 'mmc-mbp.lan (192.168.86.30)', LOCKGRANTED = NOW() WHERE ID = 1 AND LOCKED = FALSE;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.731Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully acquired change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.790Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT MD5SUM FROM PUBLIC.DATABASECHANGELOG WHERE MD5SUM IS NOT NULL;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.793Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT COUNT(*) FROM PUBLIC.DATABASECHANGELOGLOCK;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.798Z",
+  "level": "INFO",
+  "class": "liquibase.changelog",
+  "thread": "1",
+  "message": "Reading from PUBLIC.DATABASECHANGELOG",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.803Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "databaseChangelogSQL": "SELECT * FROM PUBLIC.DATABASECHANGELOG ORDER BY DATEEXECUTED ASC, ORDEREXECUTED ASC;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.841Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "10",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.827",
+  "changesetComment": "add foreign key to artists table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "ALTER TABLE artists DROP CONSTRAINT fk_artists_song;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.836",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '10' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.854Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "9",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.848",
+  "changesetComment": "add foreign key to records table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "ALTER TABLE records DROP CONSTRAINT fk_records_price;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.852",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '9' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.887Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "8",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.86",
+  "changesetComment": "add foreign key to records table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "ALTER TABLE records DROP CONSTRAINT fk_records_artist;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.864",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '8' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.897Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "7",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.892",
+  "changesetComment": "create customer_music table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "DROP TABLE customer_music;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.895",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '7' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.907Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "6",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.901",
+  "changesetComment": "create music_prices table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "DROP TABLE music_prices;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.904",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '6' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.917Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "5",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.912",
+  "changesetComment": "create prices table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "DROP TABLE prices;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.914",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '5' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.926Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "4",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.921",
+  "changesetComment": "create customers table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "DROP TABLE customers;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.923",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '4' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.933Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "2",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.929",
+  "changesetComment": "create artists table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "DROP TABLE artists;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.932",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '2' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.942Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetId": "1",
+  "changesetAuthor": "chatGPT",
+  "changesetFilepath": "changelog.mdc-recordstore.sql",
+  "changesetOperationStart": "2023-04-02T13:36:58.937",
+  "changesetComment": "create records table",
+  "changesetLabel": "",
+  "changesetContext": "",
+  "changesetSql": "DROP TABLE records;",
+  "changesetOutcome": "executed",
+  "changesetOperationStop": "2023-04-02T13:36:58.94",
+  "databaseChangelogSQL": "DELETE FROM PUBLIC.DATABASECHANGELOG WHERE ID = '1' AND AUTHOR = 'chatGPT' AND FILENAME = 'changelog.mdc-recordstore.sql';",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.944Z",
+  "level": "INFO",
+  "class": "liquibase",
+  "thread": "1",
+  "message": "Rollback command completed successfully.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetsRolledback": {
+    "changesetCount": 9,
+    "changesets": [
+      {
+        "author": "chatGPT",
+        "changesetId": "10",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "9",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "8",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "7",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "6",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "5",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "4",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "2",
+        "deploymentId": "0460613029",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "1",
+        "deploymentId": "0460613029",
+        "filepath": "changelog.mdc-recordstore.sql"
+      }
+    ]
+    
+  },
+  "deploymentOutcome": "success"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.955Z",
+  "level": "INFO",
+  "class": "liquibase.executor",
+  "thread": "1",
+  "message": "Changelog query completed.",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetsRolledback": {
+    "changesetCount": 9,
+    "changesets": [
+      {
+        "author": "chatGPT",
+        "changesetId": "10",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "9",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "8",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "7",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "6",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "5",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "4",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "2",
+        "deploymentId": "0460613029",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "1",
+        "deploymentId": "0460613029",
+        "filepath": "changelog.mdc-recordstore.sql"
+      }
+    ]
+    
+  },
+  "databaseChangelogSQL": "UPDATE PUBLIC.DATABASECHANGELOGLOCK SET LOCKED = FALSE, LOCKEDBY = NULL, LOCKGRANTED = NULL WHERE ID = 1;",
+  "databaseChangelogTableOutcome": "executed"
+}
+{
+  "timestamp": "2023-04-02T18:36:58.957Z",
+  "level": "INFO",
+  "class": "liquibase.lockservice",
+  "thread": "1",
+  "message": "Successfully released change log lock",
+  "liquibaseOperation": "rollback",
+  "liquibaseCommandName": "rollback",
+  "commandLabelFilter": "",
+  "commandContextFilter": "",
+  "rollbackToTag": "v2",
+  "rollbackScript": "",
+  "liquibaseTargetUrl": "jdbc:h2:tcp://localhost:9090/mem:dev",
+  "changelogFile": "changelog.mdc-recordstore.sql",
+  "changesetsRolledback": {
+    "changesetCount": 9,
+    "changesets": [
+      {
+        "author": "chatGPT",
+        "changesetId": "10",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "9",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "8",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "7",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "6",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "5",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "4",
+        "deploymentId": "0460616777",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "2",
+        "deploymentId": "0460613029",
+        "filepath": "changelog.mdc-recordstore.sql"
+      },
+      {
+        "author": "chatGPT",
+        "changesetId": "1",
+        "deploymentId": "0460613029",
+        "filepath": "changelog.mdc-recordstore.sql"
+      }
+    ]
+    
+  }
+}
