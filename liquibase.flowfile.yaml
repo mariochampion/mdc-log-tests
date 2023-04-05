@@ -71,6 +71,12 @@ stages:
         command: flow
         cmdArgs: {flowfile: "mdcflowfiles/liquibase.rollbackstargeted.flowfile.yaml"}
 
+  runDiffCmds:
+    actions:
+      - type: liquibase
+        command: flow
+        cmdArgs: {flowfile: "mdcflowfiles/liquibase.diff.flowfile.yaml"}
+
 
 
       
