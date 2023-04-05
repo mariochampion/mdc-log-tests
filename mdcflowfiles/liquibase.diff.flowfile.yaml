@@ -41,98 +41,102 @@ stages:
           
   ##############################################################
 
-# 
-#   ## A stage of actions. 
-#   MakeLogFile02:
-#     ## set up vars for property substitution in THIS stage only
-#     stageVariables:
-#       CHANGELOGEXTRA: "somename"
-#       CHANGELOGEXT: "sql"
-#       CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
-#       THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
-#       
-#     actions:
-# 
-#       #
-#       # Run the update then rollbackcount
-#       #
-#       - type: shell
-#         command: liquibase update --changelogfile="${CHANGELOGFILE}"
-#       - type: shell
-#         command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"        
-# 
-#           
-#   ##############################################################
-#   
-#   
-#   ## A stage of actions. 
-#   MakeLogFile03:
-#     ## set up vars for property substitution in THIS stage only
-#     stageVariables:
-#       CHANGELOGEXTRA: "03"
-#       CHANGELOGEXT: "sql"
-#       CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
-#       THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
-#       
-#       
-#     actions:
-# 
-#       #
-#       # Run the update then rollbackcount
-#       #
-#       - type: shell
-#         command: liquibase update --changelogfile="${CHANGELOGFILE}"
-#       - type: shell
-#         command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"        
-# 
-#           
-#   ##############################################################  
-# 
-# 
-# 
-#   ## A stage of actions. 
-#   MakeLogFile04:
-#     ## set up vars for property substitution in THIS stage only
-#     stageVariables:
-#       CHANGELOGEXTRA: "04-errors"
-#       CHANGELOGEXT: "xml"
-#       CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
-#       THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
-#       
-#       
-#     actions:
-# 
-#       #
-#       # Run the update then rollbackcount
-#       #
-#       - type: shell
-#         command: liquibase update --changelogfile="${CHANGELOGFILE}"
-#       - type: shell
-#         command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"        
-# 
-#           
-#   ##############################################################  
-# 
-# 
-#   ## A stage of actions. 
-#   MakeLogFile05:
-#     ## set up vars for property substitution in THIS stage only
-#     stageVariables:
-#       CHANGELOGEXTRA: "recordstore"
-#       CHANGELOGEXT: "sql"
-#       CHANGELOGFILE: "${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}"
-#       THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-${CHANGELOGBASE}-${CHANGELOGEXTRA}.${CHANGELOGEXT}.${LOGEXTENSION}"
-# 
-#       
-#     actions:
-# 
-#       #
-#       # Run the update then rollbackcount
-#       #
-#       - type: shell
-#         command: liquibase update --changelogfile="${CHANGELOGFILE}"
-#       - type: shell
-#         command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --changelogfile="${CHANGELOGFILE}" --log-file="${THISLOGFILE}"   
+
+  ## A stage of actions. 
+  MakeLogFile02:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      TARGETCHANGELOG: "${CHANGELOGBASE}-cafe.sql"
+      SOURCECHANGELOG: "${CHANGELOGBASE}-somename.sql"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-cafesql-diff-somename.${LOGEXTENSION}"
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase update --changelogfile="${TARGETCHANGELOG}" --url="${TARGETURL}"
+      - type: shell
+        command: liquibase update --changelogfile="${SOURCECHANGELOG}" --url="${SOURCEURL}"
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --url="${TARGETURL}" --reference-url="${SOURCEURL}" --log-file="${THISLOGFILE}"      
+
+          
+  ##############################################################
+  
+  
+  ## A stage of actions. 
+  MakeLogFile03:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      TARGETCHANGELOG: "${CHANGELOGBASE}-cafe.sql"
+      SOURCECHANGELOG: "${CHANGELOGBASE}-03.sql"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-cafesql-diff-03.${LOGEXTENSION}"
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase update --changelogfile="${TARGETCHANGELOG}" --url="${TARGETURL}"
+      - type: shell
+        command: liquibase update --changelogfile="${SOURCECHANGELOG}" --url="${SOURCEURL}"
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --url="${TARGETURL}" --reference-url="${SOURCEURL}" --log-file="${THISLOGFILE}" 
+
+
+       
+
+          
+  ##############################################################  
+
+
+
+  ## A stage of actions. 
+  MakeLogFile04:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      TARGETCHANGELOG: "${CHANGELOGBASE}-cafe.sql"
+      SOURCECHANGELOG: "${CHANGELOGBASE}-04-errors.xml"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-cafesql-diff-04errors.${LOGEXTENSION}"
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase update --changelogfile="${TARGETCHANGELOG}" --url="${TARGETURL}"
+      - type: shell
+        command: liquibase update --changelogfile="${SOURCECHANGELOG}" --url="${SOURCEURL}"
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --url="${TARGETURL}" --reference-url="${SOURCEURL}" --log-file="${THISLOGFILE}"      
+
+          
+  ##############################################################  
+
+
+  ## A stage of actions. 
+  MakeLogFile05:
+    ## set up vars for property substitution in THIS stage only
+    stageVariables:
+      TARGETCHANGELOG: "${CHANGELOGBASE}-cafe.sql"
+      SOURCECHANGELOG: "${CHANGELOGBASE}-recordstore.sql"
+      THISLOGFILE: "${LOGDIRLOC}/${LOGSDIRNAME}/${LOGBASE}-${THISCOMMAND}-cafesql-diff-recordstore.${LOGEXTENSION}"
+      
+    actions:
+
+      #
+      # Run the update then rollbackcount
+      #
+      - type: shell
+        command: liquibase update --changelogfile="${TARGETCHANGELOG}" --url="${TARGETURL}"
+      - type: shell
+        command: liquibase update --changelogfile="${SOURCECHANGELOG}" --url="${SOURCEURL}"
+      - type: shell
+        command: liquibase --loglevel="${THISLOGLEVEL}" ${THISCOMMAND} --url="${TARGETURL}" --reference-url="${SOURCEURL}" --log-file="${THISLOGFILE}"  
 
 
 
