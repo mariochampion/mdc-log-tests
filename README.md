@@ -22,6 +22,7 @@ A master flowfile pointing a bunch of command specific flowfiles useful to gener
   * `changelogsync`
   * `update`, `update-count`, `update-to-tag`, `update-on-changeset`
   * `rollback`, `rollback-count`, `rollback-one-changeset`, `rollback-one-update` (see note in how to use section)  
+  * `diff` (this flowfile is included but needs 4.21 to produce structured log, available soon!)
 
 
 ## How to use
