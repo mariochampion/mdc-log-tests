@@ -2,8 +2,8 @@
 
 #####################################################################
 #
-#     Note the log file sneed to be generated wih JSON
-#               (and not JDSON_PRETTY)
+#     Note the log files need to be generated wih JSON
+#               (and not JSON_PRETTY)
 #
 #     also thanks chatgpt for some super quick functions
 #
