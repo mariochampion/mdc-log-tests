@@ -15,7 +15,7 @@
 
 
 ## Contents
-A master flowfile pointing a bunch of command specific flowfiles useful to generate sample structured logs
+A master flowfile pointing many command specific flowfiles useful to generate sample structured logs
 
 * log files will be generated and stored in `mdclogfiles` dir
 * flowfiles per command are stored (and editable) in `mdcflowfiles` dir
